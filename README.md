@@ -9,6 +9,7 @@ This repository contains several lightweight, open-source web tools. All tools a
 | Tool | Description | Live Demo | Source |
 |------|------------|-----------|--------|
 | **Links** | Simple site for easy access to all of my socials | [links](https://nikoboinftb.github.io/links) | [links](https://github.com/NikoboiNFTB/nikoboinftb.github.io/tree/main/links) |
+| **Text Encryptor** | Easily encrypt and decrypt your messages, because fuck Chat Control. | [encrypt](https://nikoboinftb.github.io/encrypt) | [encrypt](https://github.com/NikoboiNFTB/nikoboinftb.github.io/tree/main/encrypt) |
 | **Open Links** | Quickly open multiple URLs in new browser tabs. | [open-links](https://nikoboinftb.github.io/open-links) | [open-links](https://github.com/NikoboiNFTB/nikoboinftb.github.io/tree/main/open-links) |
 | **Video Player** | Embed multiple 111Movies video URLs at once and download them using Video DownloadHelper. | [video-player](https://nikoboinftb.github.io/video-player) | [video-player](https://github.com/NikoboiNFTB/nikoboinftb.github.io/tree/main/video-player) |
 
@@ -34,6 +35,32 @@ A simple, free and open-source portal where all of my public social media accoun
 ### Screenshot
 
 ![Screenshot of Links](https://github.com/NikoboiNFTB/nikoboinftb.github.io/blob/main/assets/screenshot/links.png)
+
+---
+
+## Text Encryption Tool
+
+A lightweight, free, and open-source web tool to encrypt and decrypt text quickly. Perfect for small messages or learning about simple encryption techniques. The code is reusable, so you can modify or integrate it into your own projects.  
+
+### Features
+
+- Encrypt and decrypt text in the browser.  
+- Simple, intuitive interface.  
+- Fully open-source and easily forkable for personal use.
+
+### Usage
+
+Open Live Version: [https://nikoboinftb.github.io/encrypt/](https://nikoboinftb.github.io/encrypt/)  
+or Download and Run locally (recommended)  
+1. Create a folder anywhere, open the terminal in it and run `git clone https://github.com/NikoboiNFTB/nikoboinftb.github.io`  
+2. Run `cd nikoboinftb.github.io/encrypt/`  
+3. On Linux, just run `xdg-open index.html`  
+4. On Windows (or Linux if you want), run the following;  
+`python3 -m http.server 5500`  
+  >> Requires Python  
+5. Then just open in your browser: [http://localhost:5500/encrypt/](http://localhost:5500/encrypt/)
+
+![Screenshot of Encrypt](https://github.com/NikoboiNFTB/nikoboinftb.github.io/blob/main/assets/screenshot/encrypt.png)
 
 ---
 
