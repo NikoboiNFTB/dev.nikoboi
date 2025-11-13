@@ -114,20 +114,19 @@ body {
 }
 
 @media screen and (max-width: 480px) {
-  /* Slightly reduce global scaling for better fit */
   :root {
     --scale: 1.1;
   }
 
   .container {
-    width: 95%; /* make it a little wider */
+    width: 95%;
     max-width: none;
-    padding: 20px; /* simpler, consistent padding */
+    padding: 20px;
     border-radius: 10px;
   }
 
   .container input {
-    font-size: 16px; /* prevent zooming */
+    font-size: 16px;
     padding: 12px;
   }
 
@@ -143,7 +142,7 @@ body {
     max-width: 100%;
     box-sizing: border-box;
     text-align: center;
-    padding: 14px 0; /* fixed padding avoids overflow */
+    padding: 14px 0;
     font-size: 16px;
     border-radius: 8px;
   }
