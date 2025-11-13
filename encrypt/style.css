@@ -86,6 +86,14 @@ body {
   cursor: pointer;
 }
 
+.buttons a.copy-output {
+  background-color: #555;
+}
+
+.buttons a.copy-output:hover {
+  background-color: #777;
+}
+
 .container output {
   display: block;
   width: 100%;
@@ -99,6 +107,10 @@ body {
   word-break: break-word;
   white-space: pre-wrap;
   box-sizing: border-box;
+}
+
+.notice {
+  padding-top: 16px;
 }
 
 @media screen and (max-width: 480px) {
