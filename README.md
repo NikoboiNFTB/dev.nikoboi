@@ -34,7 +34,7 @@ A simple, free and open-source portal where all of my public social media accoun
 
 ### Screenshot
 
-![Screenshot of Links](https://github.com/NikoboiNFTB/nikoboinftb.github.io/blob/main/assets/screenshot/links.png)
+![Screenshot of Links](assets/screenshot/links-2025-11-17.png)
 
 ---
 
@@ -60,7 +60,7 @@ or Download and Run locally (recommended)
   >> Requires Python  
 5. Then just open in your browser: [http://localhost:5500/encrypt/](http://localhost:5500/encrypt/)
 
-![Screenshot of Encrypt](https://github.com/NikoboiNFTB/nikoboinftb.github.io/blob/main/assets/screenshot/encrypt.png)
+![Screenshot of Encrypt](assets/screenshot/encrypt-2025-11-17.png)
 
 ---
 
@@ -95,7 +95,7 @@ https://www.youtube.com/@NikoboiNFTB
 
 ### Screenshot
 
-![Screenshot of Open Links](https://github.com/NikoboiNFTB/nikoboinftb.github.io/blob/main/assets/screenshot/open-links.png)
+![Screenshot of Open Links](assets/screenshot/open-links-2025-11-17.png)
 
 ---
 
@@ -123,28 +123,38 @@ A web app that allows you to bulk add video players from 111Movies. Videos can t
 
 ### Screenshot
 
-![Screenshot of Video Player](https://github.com/NikoboiNFTB/nikoboinftb.github.io/blob/main/assets/screenshot/video-player.png)
+![Screenshot of Video Player](assets/screenshot/video-player-2025-11-17.png)
 
 ---
 
 ## Repository Structure
 
 nikoboinftb.github.io/  
+│  
 ├── assets/  
 │   ├── screenshot/  
 │   ├── svg/  
-│   ├── clippy.png (used as Favicon)  
+│   └── clippy.png  
+│  
+├── encrypt/  
+│   ├── index.html  
+│   ├── script.js  
+│   └── style.css  
+│  
 ├── links/  
 │   ├── index.html  
-│   ├── style.css  
+│   └── style.css  
+│  
 ├── open-links/  
 │   ├── index.html  
-│   ├── style.css  
-│   └── script.js  
+│   ├── script.js  
+│   └── style.css  
+│  
 ├── video-player/  
 │   ├── index.html  
-│   ├── style.css  
-│   └── script.js  
+│   ├── script.js  
+│   └── style.css  
+│  
 ├── LICENSE  
 └── README.md  
 
