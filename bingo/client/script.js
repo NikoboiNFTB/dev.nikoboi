@@ -134,7 +134,7 @@ window.onload = () => {
     resetButton.textContent = "New Game";
 
     const winMessage = document.getElementById('winMessage');
-    winMessage.textContent = "Bingo! 🎉";
+    winMessage.textContent = "Bingo!";
 
     resetButton.addEventListener('click', resetBoard);
 };
