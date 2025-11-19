@@ -28,7 +28,7 @@ body {
 .link-div {
   background-color: var(--bg-color);
   width: 90%;
-  max-width: 1000px;
+  max-width: 1048px;
   border-radius: calc(12px * var(--scale));
   padding: calc(32px * var(--scale));
   box-sizing: border-box;
