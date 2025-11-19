@@ -126,13 +126,13 @@ body {
     pointer-events: none;
     background-color: var(--link-hover);
     color: #000000;
+    border-radius: 18px
 }
 
 .free-space img.logo-img {
     max-width: 100%;
     max-height: 100%;
     object-fit: contain;
-    border-radius: 18px
 }
 
 .marked {
@@ -231,7 +231,7 @@ body {
         margin-top: 16px;
     }
 
-    .free-space img.logo-img {
+    .free-space {
         border-radius: 12px;
     }
 
