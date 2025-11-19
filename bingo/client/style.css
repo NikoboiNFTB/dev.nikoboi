@@ -190,6 +190,8 @@ body {
 @media screen and (max-width: 768px) {
     .main-container {
         padding: 16px;
+        width: 100%;
+        max-width: none;
     }
 
     .headers {
@@ -202,18 +204,25 @@ body {
     .headers .n-header,
     .headers .g-header,
     .headers .o-header {
-        width: auto;
-        font-size: 6vw;
+        width: 100%;
+        font-size: 5vw;
         margin: 4px 0;
+        padding: 8px 0;
     }
 
     .bingo-board {
+        display: grid;
         grid-template-columns: repeat(5, 1fr);
         grid-template-rows: repeat(5, 1fr);
+        gap: var(--gap);
+        width: 100%;
+        aspect-ratio: 1;
     }
 
     .bingo-board div {
-        font-size: 6vw;
+        font-size: 4vw;
+        padding: 8px;
+        border-radius: 12px;
     }
 
     #resetBtn {
@@ -223,20 +232,12 @@ body {
     }
 
     .free-space img.logo-img {
-        max-width: 60px;
-        max-height: 60px;
-    }
-
-    .bingo-board div {
-        font-size: 10vw;
+        max-width: 50px;
+        max-height: 50px;
     }
 
     #winMessage {
         font-size: 18px;
-    }
-
-    .headers {
-        grid-template-columns: 1fr 1fr 1fr;
     }
 }
 
@@ -247,17 +248,17 @@ body {
     .headers .n-header,
     .headers .g-header,
     .headers .o-header {
-        font-size: 8vw;
+        font-size: 6vw;
+        padding: 6px 0;
     }
 
     .bingo-board div {
-        font-size: 12vw;
+        font-size: 8vw;
     }
 
     #resetBtn {
         padding: 8px 20px;
         font-size: 14px;
-        margin-top: 12px;
     }
 
     #winMessage {
