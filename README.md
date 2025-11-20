@@ -35,7 +35,7 @@ A simple, free and open-source portal where all of my public social media accoun
 
 ### Screenshot
 
-![Screenshot of Links](assets/screenshot/links-2025-11-20.png)
+![Screenshot of Links](assets/screenshot/links-2025-11-21.png)
 
 ---
 
