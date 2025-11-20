@@ -145,9 +145,17 @@ h1 {
 
     #generateBtn {
         border-radius: 4px;
+        border: 1px solid #333;
     }
 
     #resetBtn {
         border-radius: 4px;
+        border: 1px solid #333;
+    }
+
+    .number {
+        width: 128px;
+        height: 128px;
+        font-size: 48px
     }
 }
