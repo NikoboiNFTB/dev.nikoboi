@@ -35,7 +35,7 @@ A simple, free and open-source portal where all of my public social media accoun
 
 ### Screenshot
 
-![Screenshot of Links](assets/screenshot/links-2025-11-21.png)
+![Screenshot of Root](assets/screenshot/root-2025-11-26-11-49-56.png)
 
 ---
 
@@ -64,11 +64,11 @@ A simple, free and open-source Bingo game.
    `firefox http://127.0.0.1:5500/bingo/index.html`  
    Or open `http://<PC-ip>:5500/bingo/index.html` on any device in your LAN.
 
-### Screenshot
+### Screenshots
 
-![Screenshot of Bingo](assets/screenshot/bingo-2025-11-20.png)  
-![Screenshot of Bingo Client](assets/screenshot/bingo-client-2025-11-20.png)  
-![Screenshot of Bingo Host](assets/screenshot/bingo-host-2025-11-21.png)
+![Screenshot of Bingo](assets/screenshot/bingo-2025-11-26-11-50-44.png)  
+![Screenshot of Bingo Client](assets/screenshot/bingo-client-2025-11-26-11-51-12.png)  
+![Screenshot of Bingo Host](assets/screenshot/bingo-host-2025-11-26-11-51-41.png)
 
 ---
 
