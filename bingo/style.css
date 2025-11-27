@@ -123,6 +123,7 @@ img.icon {
     .container {
         width: 100%;
         padding: calc(var(--padding) / 2);
+        background: linear-gradient(90deg, #000000, #222222);
     }
 
     .header {
@@ -138,5 +139,10 @@ img.icon {
 
     .link-button {
         width: 80%;
+        background: linear-gradient(90deg, #111111, #333333);
+    }
+
+    .link-button:hover {
+        background: linear-gradient(90deg, #001836, #0046a2);
     }
 }

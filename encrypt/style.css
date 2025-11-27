@@ -103,7 +103,7 @@ h2.header {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: calc(var(--padding) / 2) var(--padding);
+  padding: calc(var(--padding) * 0.5) var(--padding);
   background: linear-gradient(135deg, #222222, #444444);
   color: var(--text-color);
   border: var(--border);
@@ -135,16 +135,25 @@ h2.header {
 
 @media screen and (max-width: 480px) {
   body {
-    padding: calc(var(--padding) / 2);
+    padding: calc(var(--padding) * 0.4);
   }
 
   .container {
-    padding: calc(var(--padding) / 4);
-    border-radius: calc(var(--border-radius) / 2);
+    padding: calc(var(--padding) * 0.4);
+    border-radius: calc(var(--border-radius) * 0.5);
+    background: linear-gradient(90deg, #000000, #222222);
+  }
+
+  .container output {
+    background: linear-gradient(90deg, #111111, #333333);
   }
 
   h1.header {
     font-size: calc(var(--font-size) * 1.5);
+  }
+
+  .input-row textarea {
+    background: linear-gradient(90deg, #111111, #333333);
   }
 
   .button-row {
@@ -153,6 +162,11 @@ h2.header {
 
   .button {
     width: 100%;
+    background: linear-gradient(90deg, #222222, #444444);
+  }
+
+  .button:hover {
+    background: linear-gradient(90deg, #001836, #0046a2);
   }
 
   textarea.input,
@@ -160,8 +174,9 @@ h2.header {
   textarea.password2,
   .button,
   output.output {
-    border-radius: calc(var(--border-radius) / 2);
+    border-radius: calc(var(--border-radius) * 0.5);  
     font-size: calc(var(--font-size) * 0.75);
+    padding: calc(var(--padding) * 0.4);
   }
 
   .notice {

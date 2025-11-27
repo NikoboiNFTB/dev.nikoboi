@@ -227,6 +227,7 @@ body {
         max-width: none;
         border-radius: var(--mobile-border-radius);
         border: var(--mobile-border);
+        background: linear-gradient(90deg, #000000, #222222);
     }
 
     .bingo-container {
@@ -249,6 +250,7 @@ body {
         width: 100%;
         aspect-ratio: 1;
         border: var(--mobile-border);
+        background: linear-gradient(90deg, #001836, #0046a2);
     }
 
     .bingo-board {
@@ -264,7 +266,25 @@ body {
         font-size: calc(var(--font-size) / 3);
         border-radius: var(--mobile-border-radius);
         border: var(--mobile-border);
+        background: linear-gradient(90deg, #111111, #333333);
     }
+
+    .bingo-board div:hover {
+        background: linear-gradient(90deg, #001836, #0046a2);
+    }
+
+    .bingo-board div.marked {
+        background: linear-gradient(90deg, #001836, #0046a2) !important;
+    }
+
+    .bingo-board div.marked:hover {
+        background: linear-gradient(90deg, #001836, #0046a2);
+    }
+
+    .marked {
+        background: linear-gradient(90deg, #001836, #0046a2);
+    }
+
     .button-container {
         margin: var(--mobile-margin);
         gap: var(--mobile-gap);
@@ -276,6 +296,11 @@ body {
         margin: var(--mobile-margin);
         border: var(--mobile-border);
         border-radius: var(--mobile-border-radius);
+        background: linear-gradient(90deg, #111111, #333333);
+    }
+
+    #resetBtn:hover {
+        background: linear-gradient(90deg, #001836, #0046a2);
     }
 
     .free-space img.logo-img {
@@ -288,5 +313,6 @@ body {
         padding: var(--mobile-padding);
         margin: var(--mobile-margin);
         border-radius: var(--mobile-border-radius);
+        background: linear-gradient(90deg, #001836, #0046a2);
     }
 }
