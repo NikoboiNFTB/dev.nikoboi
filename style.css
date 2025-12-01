@@ -10,12 +10,15 @@
     --img-size: 32px;
 
     --primary-color: #002F6C;
+    --primary-dark-color: #001836;
+    --primary-light-color: #0046a2;
     --text-color: #ffffff;
     --link-color: #8097B6;
     --body-bg-color: #000000;
     --container-bg-color: #111111;
     --box-bg-color: #222222;
-    --border: 2px solid #333333;
+    --border-color: #333333;
+    --border: 2px solid var(--border-color);
 
     --icon-filter: invert(1) brightness(2);
 }
@@ -41,7 +44,7 @@ body {
     flex-direction: column;
     align-items: center;
     max-width: 100%;
-    background: linear-gradient(135deg, #000000, #222222);
+    background: linear-gradient(135deg, var(--body-bg-color), var(--box-bg-color));
     border-radius: var(--border-radius);
     padding: var(--padding);
     box-sizing: border-box;
@@ -77,7 +80,7 @@ h2.header {
     justify-content: flex-start;
     gap: var(--gap);
     padding: calc(var(--padding) * var(--scale) / 2) calc(var(--padding) * var(--scale) / 2);
-    background: linear-gradient(135deg, #111111, #333333);
+    background: linear-gradient(135deg, var(--container-bg-color), var(--border-color));
     color: var(--text-color);
     border: var(--border);
     border-radius: var(--border-radius);
@@ -87,7 +90,7 @@ h2.header {
 }
 
 .link-button:hover {
-    background: linear-gradient(135deg, #001836, #0046a2);
+    background: linear-gradient(135deg, var(--primary-dark-color), var(--primary-light-color));
     transform: scale(1.05);
 }
 
@@ -126,7 +129,7 @@ img.icon#no-filter {
 
     .container {
         padding: 0;
-        background: linear-gradient(90deg, #000000, #222222);
+        background: linear-gradient(90deg, var(--body-bg-color), var(--box-bg-color));
     }
 
     .header {
@@ -142,10 +145,10 @@ img.icon#no-filter {
 
     .link-button {
         width: 80%;
-        background: linear-gradient(90deg, #000000, #222222);
+        background: linear-gradient(90deg, var(--body-bg-color), var(--box-bg-color));
     }
 
     .link-button:hover {
-        background: linear-gradient(90deg, #001836, #0046a2);
+        background: linear-gradient(90deg, var(--primary-dark-color), var(--primary-light-color));
     }
 }
