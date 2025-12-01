@@ -12,7 +12,7 @@ This repository contains my website, which contains several lightweight, open-so
 | **Bingo** | Very simple, clean and Open-Source Bingo host and client. | [bingo](https://nikoboi.dev/bingo) | [bingo](https://github.com/NikoboiNFTB/nikoboinftb.github.io/tree/main/bingo)
 | **Encryptor** | Easily encrypt and decrypt your messages, because fuck Chat Control. | [encrypt](https://nikoboi.dev/encrypt) | [encrypt](https://github.com/NikoboiNFTB/nikoboinftb.github.io/tree/main/encrypt) |
 | **Open Links** | Quickly open multiple URLs in new browser tabs. | [links](https://nikoboi.dev/links) | [links](https://github.com/NikoboiNFTB/nikoboinftb.github.io/tree/main/links) |
-| **Video Player** | Embed multiple 111Movies video URLs at once and download them using Video DownloadHelper. | [video-player](https://nikoboi.dev/video-player) | [video-player](https://github.com/NikoboiNFTB/nikoboinftb.github.io/tree/main/video-player) |
+| **Video Player** | Embed multiple 111Movies video URLs at once and download them using Video DownloadHelper. | [player](https://nikoboi.dev/player) | [player](https://github.com/NikoboiNFTB/nikoboinftb.github.io/tree/main/player) |
 
 ---
 
@@ -147,9 +147,9 @@ A web app that allows you to bulk add video players from 111Movies. Videos can t
 ### Usage
 
 1. **Open Live Version:**  
-   [https://nikoboi.dev/video-player](https://nikoboi.dev/video-player)  
+   [https://nikoboi.dev/player](https://nikoboi.dev/player)  
    Or Download & Run Locally:  
-   Clone the repository and open `video-player/index.html` in Firefox.  
+   Clone the repository and open `player/index.html` in Firefox.  
 
 2. Paste your URLs, click **Add Players**, then download via Video DownloadHelper.  
 3. Clear all players with **Clear All** if needed.  
@@ -192,7 +192,7 @@ nikoboinftb.github.io/
 │   ├── script.js  
 │   └── style.css  
 │  
-├── video-player/  
+├── player/  
 │   ├── index.html  
 │   ├── script.js  
 │   └── style.css  
