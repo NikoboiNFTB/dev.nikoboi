@@ -11,80 +11,79 @@
 
 <body>
     <div class="container">
-
         <div class="centered">
             <h1>
                 Userscript Safety Guide
             </h1>
         </div>
-
         <p>
-            Userscripts can make your browsing more powerful, but they can also pose risks. Here's how to stay safe while using them.
+            Userscripts can enhance your browsing experience by automating tasks, adding features or stripping away features you don't need/want. But with great power comes great responsibility, they can also pose quite a risk. Here's how to stay safe while using them.
         </p>
-
         <div class="centered">
             <h2>
                 Best Steps Anyone Can Do
             </h2>
         </div>
-
+        <h3>
+            First of all:
+        </h3>
+        <p>
+            <b>Use a respectable Userscript Manager:</b>
+        </p>
+        <ul>
+            <li>
+                <a href="https://www.firefox.com/" target="_blank">Firefox</a> + <a href="https://violentmonkey.github.io/" target="_blank">Violentmonkey</a> is pretty much the only <i>good*</i> combination.
+            </li>
+            <ul>
+                <li>
+                    <i>*Only good</i> as in the only <b>widely used</b>, <b>up-to-date</b> and <b>Free and Open-Source option</b>.
+                </li>
+                <ul>
+                    <li>
+                        Tampermonkey is <a href="https://github.com/Tampermonkey/tampermonkey" target="_blank">proprietary</a>, Greasemonkey is quite ancient, and the rest are not widely used.
+                    </li>
+                </ul>
+            </ul>
+            <li>
+                Though on Chromium browsers the best option is still <a href="https://www.tampermonkey.net/">Tampermonkey</a>.
+            </li>
+            <ul>
+                <li>
+                    <a href="https://github.com/violentmonkey/violentmonkey/issues/2284" target="_blank">Violentmonkey for Chromium was killed</a> by Manifest V3, <a href="https://www.pcworld.com/article/2423294/google-is-killing-one-of-chromes-biggest-ad-blockers.html" target="_blank">just like uBlock Origin</a>.
+                </li>
+                <li>
+                    Greasemonkey has no Chromium version.
+                </li>
+            </ul>
+        </ul>
         <p>
             Follow these simple steps to check if a userscript is safe:
         </p>
-
         <ul>
             <li>
-                <b>Use trusted sites</b>: Download scripts only from sites, like <a href="https://greasyfork.org/en" target="_blank">GreasyFork</a>, where community reviews and ratings exist.
+                <b>Use trusted sites</b>: Install scripts primarily from trusted sites like <a href="https://greasyfork.org/en" target="_blank">GreasyFork</a> or <a href="https://openuserjs.org/" target="_blank">OpenUserJS</a>, where reviews and ratings exist.
             </li>
             <li>
-                <b>Use a respectable Userscript Manager</b>:
+                <b>Check permissions</b>: Look at the @match and @include lines in the script to ensure it only runs on the sites it needs to.
+            </li>
+            <li>
+                <b>Use the Script Analyzer</b>: Paste the script into the <a href="https://ilyaxuwu.github.io/tampermonkey/analyze.html" target="_blank">Tampermonkey Script Security Analyzer</a> (by <a href="https://ilyaxuwu.github.io/" target="_blank">Ilyax</a>) to spot risky behavior.
                 <ul>
                     <li>
-                        <a href="https://www.firefox.com/en-US/" target="_blank">Firefox</a> + <a href="https://violentmonkey.github.io/" target="_blank">Violentmonkey</a> is the best combination.
-                    </li>
-                    <li>
-                        On Chromium-based browsers the best option is the proprietary <a href="https://www.tampermonkey.net/">Tampermonkey</a>.
-                    </li>
-                    <ul>
-                        <li>
-                            <a href="https://github.com/violentmonkey/violentmonkey/issues/2284"
-                                target="_blank">Violentmonkey for Chromium was killed</a> by Manifest V3, <a
-                                href="https://www.pcworld.com/article/2423294/google-is-killing-one-of-chromes-biggest-ad-blockers.html"
-                                target="_blank">just like uBlock Origin</a>.
-                        </li>
-                    </ul>
-                </ul>
-            </li>
-            <li>
-                <b>Check permissions</b>: Look at the @match and @include lines in the script to ensure it only runs on
-                the sites it needs to.
-            </li>
-            <li>
-                <b>Use the Script Analyzer</b>: Paste the script into the <a
-                    href="https://ilyaxuwu.github.io/tampermonkey/analyze.html" target="_blank">Tampermonkey Script
-                    Security Analyzer</a> (by <a href="https://ilyaxuwu.github.io/" target="_blank">Ilyax</a>) to spot
-                risky behavior.
-                <ul>
-                    <li>
-                        <b>
-                            Note:
-                        </b>The script analyzer is <b>not</b> an intelligent tool. It is a simple pattern finding tool,
-                        that finds suspicious patterns in scripts.
+                        <b>Note:</b> The script analyzer is not an intelligent tool. It is a pattern finding tool that finds suspicious patterns in scripts.<br>It is not a replacement for a full audit of source code.
                     </li>
                 </ul>
             </li>
             <li>
-                <b>Ask an AI</b>: Unless you can read code, your best bet is actually to ask an AI tool, like <a
-                    href="https://chatgpt.com/" target="_blank">ChatGPT</a> or Claude, to audit a script.
+                <b>Ask an AI</b>: Unless you can read code, your best bet is actually to ask an AI tool, like <a href="https://chatgpt.com/" target="_blank">ChatGPT</a> or Claude, to audit a script.
             </li>
         </ul>
-
-        <p>Here's a comprehensive prompt you can use in any LLM to audit a script:</p>
-
+        <p>
+            Here's a comprehensive prompt you can use in any LLM to audit a script:
+        </p>
         <div class="prompt">
             <p>
-                Please audit the following userscript for any security risks or suspicious behavior. Please check for at
-                least the following:
+                Please audit the following userscript for any security risks or suspicious behavior. Check for, including but not limited to, the following:
             </p>
             <ul>
                 <li>
@@ -100,11 +99,10 @@
                     Is there any obfuscated code (e.g., code that is hard to read or hides its functionality)?
                 </li>
                 <li>
-                    Does it have any unnecessary or overly broad permissions (e.g., running on all websites)?
+                    Does it have any unnecessary or overly broad permissions (e.g. running on all websites)?
                 </li>
                 <li>
-                    Are there any signs of malicious behavior, such as using eval(), setTimeout() with encoded strings,
-                    or excessive permissions?
+                    Are there any signs of malicious behavior, such as using eval(), setTimeout() with encoded strings, or excessive permissions?
                 </li>
             </ul>
             <p>
@@ -117,47 +115,37 @@
                 -----------------------
             </p>
             <p>
-                [Paste the userscript code here]
+                [Replace this with the userscript code]
             </p>
         </div>
-
-        <dic class="centered">
+        <div class="centered">
             <h2>
                 For Advanced Users
             </h2>
-        </dic>
-
+        </div>
         <p>
             If you're more experienced, you can take these extra steps:
         </p>
-
         <ul>
             <li>
-                <b>Manually inspect the code</b>: Look for obfuscated code or network requests that send data to
-                external servers.
+                <b>Manually inspect the code</b>: Look for obfuscated code or network requests that send data to external servers.
             </li>
             <li>
-                <b>Test in a sandbox</b>: Run the script in a virtual machine or isolated environment to monitor its
-                behavior.
+                <b>Test in a sandbox</b>: Run the script in a virtual machine or isolated environment to monitor its behavior.
             </li>
             <li>
-                <b>Monitor script behavior</b>: Watch for any unusual activity in your browser, such as slowdowns or
-                pop-ups.
+                <b>Monitor script behavior</b>: Watch for any unusual activity in your browser, such as slowdowns or pop-ups.
             </li>
         </ul>
-
         <div class="centered">
             <img id="no-filter" class="img" src="../assets/clippy.png" alt="Clippy">
         </div>
-
         <div class="centered">
             <p>
                 Clippy wants you to stay safe.
             </p>
         </div>
-
     </div>
-
 </body>
 
 </html>
