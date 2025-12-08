@@ -9,10 +9,10 @@ This repository contains my website, which contains several lightweight, open-so
 | Site | Description | Live Demo | Source |
 |------|------------|-----------|--------|
 | **Home** | Simple site for easy access to all of my socials | [root](https://nikoboi.dev/) | [root](https://github.com/NikoboiNFTB/nikoboinftb.github.io/) |
-| **Bingo** | Very simple, clean and Open-Source Bingo host and client. | [bingo](https://nikoboi.dev/bingo) | [bingo](https://github.com/NikoboiNFTB/nikoboinftb.github.io/tree/main/bingo)
+| **Bingo** | Very simple, clean and Open-Source Bingo host and client. | [bingo](https://nikoboi.dev/bingo) | [bingo](https://github.com/NikoboiNFTB/nikoboinftb.github.io/tree/main/bingo) |
 | **Encryptor** | Easily encrypt and decrypt your messages, because fuck Chat Control. | [encrypt](https://nikoboi.dev/encrypt) | [encrypt](https://github.com/NikoboiNFTB/nikoboinftb.github.io/tree/main/encrypt) |
 | **Open Links** | Quickly open multiple URLs in new browser tabs. | [links](https://nikoboi.dev/links) | [links](https://github.com/NikoboiNFTB/nikoboinftb.github.io/tree/main/links) |
-| **Video Player** | Embed multiple 111Movies video URLs at once and download them using Video DownloadHelper. | [player](https://nikoboi.dev/player) | [player](https://github.com/NikoboiNFTB/nikoboinftb.github.io/tree/main/player) |
+| **Userscript Safety Guide** | A simple tutorial to guide you in safe installation and use of userscripts. | [safety](https://nikoboi.dev/safety) | [safety](https://github.com/NikoboiNFTB/nikoboinftb.github.io/tree/main/safety) |
 
 ---
 
@@ -133,34 +133,6 @@ https://www.youtube.com/@NikoboiNFTB
 
 ---
 
-## Video Player
-
-A web app that allows you to bulk add video players from 111Movies. Videos can then be downloaded using the [Video DownloadHelper](https://www.downloadhelper.net/) extension for Firefox.
-
-### Features
-
-- Paste multiple 111Movies URLs (one per line).  
-- Embed multiple video players at once and remove them all with one click.  
-- Shows the total number of added players.  
-- Supports downloading videos via Video DownloadHelper.
-
-### Usage
-
-1. **Open Live Version:**  
-   [https://nikoboi.dev/player](https://nikoboi.dev/player)  
-   Or Download & Run Locally:  
-   Clone the repository and open `player/index.html` in Firefox.  
-
-2. Paste your URLs, click **Add Players**, then download via Video DownloadHelper.  
-3. Clear all players with **Clear All** if needed.  
-> Recommended to download a few players at a time for best performance.
-
-### Screenshot
-
-![Screenshot of Video Player](assets/screenshot/video-player-2025-11-20.png)
-
----
-
 ## Repository Structure
 
 nikoboinftb.github.io/  
@@ -192,14 +164,6 @@ nikoboinftb.github.io/
 │   ├── script.js  
 │   └── style.css  
 │  
-├── player/  
-│   ├── index.html  
-│   ├── script.js  
-│   └── style.css  
-│  
-├── CNAME  
-├── LICENSE  
-├── README.md  
 ├── index.html  
 └── style.css  
 
@@ -215,4 +179,4 @@ All projects in this repository are licensed under the [GPLv3 License](LICENSE).
 
 - Created by **Nikoboi**  
 - Script logic fine-tuned with **ChatGPT**  
-- Colors inspired by the great nation of Finland 🇫🇮
+- Colors inspired by the great nation of **Finland** 🇫🇮 and the color black.
