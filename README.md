@@ -136,7 +136,7 @@ https://www.youtube.com/@NikoboiNFTB
 ## Repository Structure
 
 >> Not a **full** tree. Only relevant bits, and examples where relevant.
-```bash
+```text
 .
 ├── assets
 │   │
