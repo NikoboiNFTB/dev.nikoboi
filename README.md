@@ -144,12 +144,12 @@ https://www.youtube.com/@NikoboiNFTB
 │   │   ├── example.png  
 │   │   └── example.png  
 │   └── svg  
-│       ├── brand  
-│       │   ├── example.svg  
-│       │   └── example.svg  
-│       └── regular  
-│           ├── example.svg  
-│           └── example.svg  
+│        ├── brand  
+│        │   ├── example.svg  
+│        │   └── example.svg  
+│        └── regular  
+│            ├── example.svg  
+│            └── example.svg  
 │  
 ├── bingo  
 │   ├── client  
