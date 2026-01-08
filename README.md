@@ -135,7 +135,7 @@ https://www.youtube.com/@NikoboiNFTB
 
 ## Repository Structure
 
-```
+```text
 .  
 ├── assets  
 │   ├── clippy.png  
