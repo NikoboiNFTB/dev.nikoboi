@@ -137,12 +137,9 @@ https://www.youtube.com/@NikoboiNFTB
 
 .  
 ├── assets  
-│   ├── after-eight.svg  
 │   ├── clippy.png  
 │   ├── fin-circle-gradient.svg  
-│   ├── fin-circle.svg  
 │   ├── fin-square-gradient.svg  
-│   ├── fin-square.svg  
 │   ├── screenshot  
 │   │   ├── example.png  
 │   │   └── example.png  
@@ -153,6 +150,7 @@ https://www.youtube.com/@NikoboiNFTB
 │       └── regular  
 │           ├── example.svg  
 │           └── example.svg  
+│  
 ├── bingo  
 │   ├── client  
 │   │   ├── index.html  
@@ -164,7 +162,9 @@ https://www.youtube.com/@NikoboiNFTB
 │   │   └── style.css  
 │   ├── index.html  
 │   └── style.css  
+│  
 ├── CNAME  
+│  
 ├── encrypt  
 │   ├── index.html  
 │   ├── README.md  
@@ -172,11 +172,14 @@ https://www.youtube.com/@NikoboiNFTB
 │   ├── style.css  
 │   └── test.js  
 ├── index.html  
+│  
 ├── js  
 │   └── safety  
 │       ├── index.html  
 │       └── style.css  
+│  
 ├── LICENSE  
+│  
 ├── links  
 │   ├── index.html  
 │   ├── script.js  
@@ -185,12 +188,17 @@ https://www.youtube.com/@NikoboiNFTB
 │   ├── index.html  
 │   ├── script.js  
 │   └── style.css  
+│  
 ├── README.md  
+│  
 ├── robots.txt  
+│  
 ├── sh  
 │   ├── example  
 │   └── example  
+│  
 ├── sitemap.xml  
+│  
 └── style.css  
 
 
