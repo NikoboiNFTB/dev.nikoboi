@@ -136,71 +136,95 @@ https://www.youtube.com/@NikoboiNFTB
 ## Repository Structure
 
 ```text
-.  
-├── assets  
-│   ├── clippy.png  
-│   ├── fin-circle-gradient.svg  
-│   ├── fin-square-gradient.svg  
+.
+├── assets
+│   │  
 │   ├── screenshot  
 │   │   ├── example.png  
 │   │   └── example.png  
-│   └── svg  
-│       ├── brand  
-│       │   ├── example.svg  
-│       │   └── example.svg  
-│       └── regular  
-│           ├── example.svg  
-│           └── example.svg  
-│  
-├── bingo  
-│   ├── client  
-│   │   ├── index.html  
-│   │   ├── script.js  
-│   │   └── style.css  
-│   ├── host  
-│   │   ├── index.html  
-│   │   ├── script.js  
-│   │   └── style.css  
-│   ├── index.html  
-│   └── style.css  
-│  
-├── CNAME  
-│  
-├── encrypt  
-│   ├── index.html  
-│   ├── README.md  
-│   ├── script.js  
-│   ├── style.css  
-│   └── test.js  
-├── index.html  
-│  
-├── js  
-│   └── safety  
-│       ├── index.html  
-│       └── style.css  
-│  
-├── LICENSE  
-│  
-├── links  
-│   ├── index.html  
-│   ├── script.js  
-│   └── style.css  
-├── player  
-│   ├── index.html  
-│   ├── script.js  
-│   └── style.css  
-│  
-├── README.md  
-│  
-├── robots.txt  
-│  
-├── sh  
-│   ├── example  
-│   └── example  
-│  
-├── sitemap.xml  
-│  
-└── style.css  
+│   │  
+│   ├── svg  
+│   │   ├── brand  
+│   │   │   ├── example.svg  
+│   │   │   └── example.svg  
+│   │   └── regular  
+│   │       ├── example.svg  
+│   │       └── example.svg  
+│   │  
+│   ├── clippy.png
+│   ├── fin-circle-gradient.svg
+│   ├── fin-circle.svg
+│   ├── fin-square-gradient.svg
+│   └── fin-square.svg
+├── bingo
+│   ├── client
+│   │   ├── index.html
+│   │   ├── script.js
+│   │   └── style.css
+│   ├── host
+│   │   ├── index.html
+│   │   ├── script.js
+│   │   └── style.css
+│   ├── index.html
+│   └── style.css
+├── encrypt
+│   ├── rev1
+│   │   └── index.html
+│   ├── rev2
+│   │   └── index.html
+│   ├── index.html
+│   ├── README.md
+│   ├── script.js
+│   ├── style.css
+│   └── test.js
+├── js
+│   └── safety
+│       ├── rev1
+│       │   ├── index.html
+│       │   └── style.css
+│       ├── rev2
+│       │   ├── index.html
+│       │   └── style.css
+│       ├── rev3
+│       │   ├── index.html
+│       │   └── style.css
+│       ├── index.html
+│       └── style.css
+├── links
+│   ├── index.html
+│   ├── script.js
+│   └── style.css
+├── player
+│   ├── index.html
+│   ├── script.js
+│   └── style.css
+├── sh
+│   ├── all-pull
+│   ├── all-push
+│   ├── all-status
+│   ├── clone-author
+│   ├── clone-repo
+│   ├── compare
+│   ├── disable-ssh
+│   ├── enable-ssh
+│   ├── pull
+│   ├── push
+│   ├── setup-auto
+│   ├── setup-ssh
+│   ├── sort-file
+│   ├── status
+│   ├── test123.txt
+│   └── workflow
+├── CNAME
+├── index.html
+├── LICENSE
+├── list.txt
+├── README.md
+├── robots.txt
+├── sitemap.xml
+└── style.css
+
+20 directories, 883 files
 ```
 
 
