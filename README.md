@@ -135,69 +135,65 @@ https://www.youtube.com/@NikoboiNFTB
 
 ## Repository Structure
 
+>> Not a **full** tree. Only relevant bits, and examples where relevant.
 ```text
 .
 ├── assets
-│   │  
-│   ├── screenshot  
-│   │   ├── example.png  
-│   │   └── example.png  
-│   │  
-│   ├── svg  
-│   │   ├── brand  
-│   │   │   ├── example.svg  
-│   │   │   └── example.svg  
-│   │   └── regular  
-│   │       ├── example.svg  
-│   │       └── example.svg  
-│   │  
+│   │
+│   ├── screenshot
+│   │   ├── example.png
+│   │   └── example.png
+│   │
+│   ├── svg
+│   │   ├── brand
+│   │   │   │
+│   │   │   ├── example.svg
+│   │   │   └── example.svg
+│   │   │
+│   │   └── regular
+│   │       ├── example.svg
+│   │       └── example.svg
+│   │
 │   ├── clippy.png
 │   ├── fin-circle-gradient.svg
-│   ├── fin-circle.svg
-│   ├── fin-square-gradient.svg
-│   └── fin-square.svg
+│   └── fin-square-gradient.svg
+│
 ├── bingo
 │   ├── client
 │   │   ├── index.html
 │   │   ├── script.js
 │   │   └── style.css
+│   │
 │   ├── host
 │   │   ├── index.html
 │   │   ├── script.js
 │   │   └── style.css
+│   │
 │   ├── index.html
 │   └── style.css
+│
 ├── encrypt
-│   ├── rev1
-│   │   └── index.html
-│   ├── rev2
-│   │   └── index.html
 │   ├── index.html
 │   ├── README.md
 │   ├── script.js
 │   ├── style.css
 │   └── test.js
+│
 ├── js
 │   └── safety
-│       ├── rev1
-│       │   ├── index.html
-│       │   └── style.css
-│       ├── rev2
-│       │   ├── index.html
-│       │   └── style.css
-│       ├── rev3
-│       │   ├── index.html
-│       │   └── style.css
 │       ├── index.html
 │       └── style.css
+│
 ├── links
 │   ├── index.html
 │   ├── script.js
 │   └── style.css
+│
 ├── player
 │   ├── index.html
 │   ├── script.js
 │   └── style.css
+│
 ├── sh
 │   ├── all-pull
 │   ├── all-push
@@ -215,6 +211,7 @@ https://www.youtube.com/@NikoboiNFTB
 │   ├── status
 │   ├── test123.txt
 │   └── workflow
+│
 ├── CNAME
 ├── index.html
 ├── LICENSE
@@ -223,8 +220,6 @@ https://www.youtube.com/@NikoboiNFTB
 ├── robots.txt
 ├── sitemap.xml
 └── style.css
-
-20 directories, 883 files
 ```
 
 
