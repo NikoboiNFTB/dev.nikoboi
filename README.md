@@ -220,6 +220,8 @@ https://www.youtube.com/@NikoboiNFTB
 ├── robots.txt
 ├── sitemap.xml
 └── style.css
+
+20 directories, 882 files
 ```
 
 
