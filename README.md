@@ -224,16 +224,22 @@ https://www.youtube.com/@NikoboiNFTB
 20 directories, 882 files
 ```
 
----
+## Contributing
 
-## License
-
-All projects in this repository are licensed under the [GPLv3 License](LICENSE).
-
----
+Feel free to fork this repository and submit issues or pull requests if you have any suggestions or improvements. If you encounter any bugs or have feature requests, please open an issue.
 
 ## Credits
 
-- Created by **Nikoboi**  
-- Script logic fine-tuned with **ChatGPT**  
-- Colors inspired by the great nation of **Finland** 🇫🇮 and the color black.
+Created by **[Nikoboi](https://github.com/NikoboiNFTB/)**
+
+Script logic fine-tuned with **ChatGPT**
+
+Colors inspired by the great nation of **Finland** 🇫🇮 and the color black.
+
+## License
+
+This project is licenced under the GNU General Public License V3. See [LICENSE](LICENSE) for details.
+
+## Legal Disclaimer
+
+If needed, for traversing the gray areas.
