@@ -233,7 +233,7 @@ Created by **[Nikoboi](https://github.com/NikoboiNFTB/)**
 
 Script logic fine-tuned with **ChatGPT**
 
-Colors inspired by the great nation of **Finland** 🇫🇮 and the cromulent color **black**.
+Theme inspired by the great nation of **Finland** 🇫🇮 and the perfectly cromulent color **black**.
 
 ## License
 
