@@ -234,7 +234,7 @@ Created by **[Nikoboi](https://github.com/NikoboiNFTB/)**
 
 Script logic fine-tuned with **ChatGPT**
 
-Colors inspired by the great nation of **Finland** 🇫🇮 and the color black.
+Colors inspired by the great nation of **Finland** 🇫🇮 and the cromulent color **black**.
 
 ## License
 
