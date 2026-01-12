@@ -238,7 +238,3 @@ Theme inspired by the great nation of **Finland** 🇫🇮 and the perfectly cro
 ## License
 
 This project is licenced under the GNU General Public License V3. See [LICENSE](LICENSE) for details.
-
-## Legal Disclaimer
-
-If needed, for traversing the gray areas.
