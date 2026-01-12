@@ -231,7 +231,7 @@ Feel free to fork this repository and submit issues or pull requests if you have
 
 Created by **[Nikoboi](https://github.com/NikoboiNFTB/)**
 
-Script logic fine-tuned with **ChatGPT**
+JavaScript logic fine-tuned with **ChatGPT**
 
 Theme inspired by the great nation of **Finland** 🇫🇮 and the perfectly cromulent color **black**.
 
