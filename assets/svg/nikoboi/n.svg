@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="nGradient" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#001836"/>
+      <stop offset="100%" stop-color="#0046a2"/>
+    </linearGradient>
+
+    <clipPath id="circleClip">
+      <circle cx="100" cy="100" r="100"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#circleClip)">
+    <!-- Background -->
+    <rect width="200" height="200" fill="#ffffff"/>
+
+    <!-- Left vertical stroke of N -->
+    <rect x="60" y="60" width="15" height="80" fill="url(#nGradient)"/>
+
+    <!-- Right vertical stroke of N -->
+    <rect x="125" y="60" width="15" height="80" fill="url(#nGradient)"/>
+
+    <!-- Diagonal stroke of N -->
+    <polygon fill="url(#nGradient)"
+      points="
+        75,60  115,60  125,140  85,140
+      "
+    />
+
+    <!-- Extension from bottom-left of center to bottom-left of circle -->
+    <polygon fill="url(#nGradient)"
+      points="
+        60,140  75,140  0,200  -15,200
+      "
+    />
+
+    <!-- Extension from top-right of center to top-right of circle -->
+    <polygon fill="url(#nGradient)"
+      points="
+        125,60  140,60  200,0  185,0
+      "
+    />
+  </g>
+</svg>
