@@ -119,13 +119,13 @@ h2.header {
   cursor: pointer;
 }
 
-.notice {
+.footer {
+  margin: 0;
   margin-top: var(--margin);
   font-size: var(--font-size);
 }
 
-#open-source,
-#chat-control {
+#notice {
   color: var(--link-color);
 }
 

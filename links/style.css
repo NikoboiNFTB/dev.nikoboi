@@ -108,29 +108,3 @@ button:hover {
 #clearBtn:hover {
   background-color: var(--primary-color);
 }
-
-.footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  padding: var(--padding);
-  width: 100%;
-}
-
-.notice {
-  font-size: var(--font-size);
-  color: var(--text-color2);
-  text-align: center;
-}
-
-.notice a {
-  color: var(--link-color);
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.notice a:hover {
-  color: var(--link-hover);
-  text-decoration: underline;
-}

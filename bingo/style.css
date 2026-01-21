@@ -97,11 +97,11 @@ img.icon {
   height: var(--img-size);
 }
 
-#footer {
+.footer {
     margin: var(--margin);
 }
 
-#open-source {
+#notice {
     color: var(--link-color);
 }
 

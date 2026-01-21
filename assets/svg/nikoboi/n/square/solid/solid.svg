@@ -1,22 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
   <defs>
-
     <linearGradient id="nGradient" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#000c1b"/>
       <stop offset="100%" stop-color="#0060d8"/>
     </linearGradient>
-
     <mask id="nMask">
       <rect width="200" height="200" fill="black"/>
       <rect x="50" y="30" width="30" height="140" fill="white"/>
       <rect x="120" y="30" width="30" height="140" fill="white"/>
       <polygon points="50,30 80,30 150,170 120,170" fill="white"/>
     </mask>
-
   </defs>
-
-  <circle cx="100" cy="100" r="100" fill="white"/>
-
-  <circle cx="100" cy="100" r="100" fill="url(#nGradient)" mask="url(#nMask)"/>
-
+  <rect width="200" height="200" fill="white"/>
+  <rect width="200" height="200" fill="url(#nGradient)" mask="url(#nMask)"/>
 </svg>

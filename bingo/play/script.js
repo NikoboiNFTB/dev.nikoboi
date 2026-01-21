@@ -59,7 +59,7 @@ function resetBoard() {
 
     const freeSpace = document.getElementById('N3');
     if (freeSpace) {
-        freeSpace.innerHTML = '<img src="../../assets/svg/nikoboi/letter/n5.svg" alt="logo" class="logo-img" />';
+        freeSpace.innerHTML = '<img src="../../assets/svg/nikoboi/n/square/gradient/ribbon.svg" alt="logo" class="logo-img" />';
         freeSpace.classList.add('marked');
     }
 
