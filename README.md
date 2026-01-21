@@ -1,6 +1,6 @@
 # nikoboi.dev
 
->> The README is being updated.
+>> This README is being updated.
 
 This repository contains my website, which contains several lightweight, open-source web tools. All tools are fully client-side, easy to use, and open-source under the **GPLv3 License**.
 
@@ -8,7 +8,7 @@ This repository contains my website, which contains several lightweight, open-so
 
 | Site | Description | Live | README & Source |
 | - | - | - | - |
-| **Home** | Simple site for easy access to all of my socials | [root](https://nikoboi.dev/) | [root](https://github.com/NikoboiNFTB/nikoboinftb.github.io/) |
+| **Home** | Simple site for easy access to all of my projects and socials | [Home](https://nikoboi.dev/) | [README](https://github.com/NikoboiNFTB/nikoboinftb.github.io/) |
 | **Bingo** | Very simple, clean and Open-Source Bingo host and client. | [bingo](https://nikoboi.dev/bingo) | [bingo](https://github.com/NikoboiNFTB/nikoboinftb.github.io/tree/main/bingo) |
 | **Encryptor** | Easily encrypt and decrypt your messages, because fuck Chat Control. | [encrypt](https://nikoboi.dev/encrypt) | [encrypt](https://github.com/NikoboiNFTB/nikoboinftb.github.io/tree/main/encrypt) |
 | **Open Links** | Quickly open multiple URLs in new browser tabs. | [links](https://nikoboi.dev/links) | [links](https://github.com/NikoboiNFTB/nikoboinftb.github.io/tree/main/links) |
