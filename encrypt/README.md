@@ -1,16 +1,16 @@
 
 
-## Text Encryption Tool
+# Text Encryption Tool
 
 A lightweight, free and open-source web tool to encrypt and decrypt text quickly. Perfect for small messages or learning about simple encryption techniques. The code is reusable, so you can modify or integrate it into your own projects.
 
-### Features
+## Features
 
 - Encrypt and decrypt text in the browser.
 - Simple, intuitive interface.
 - Fully open-source and easily forkable for personal use.
 
-### Usage
+## Usage
 
 **Option 1**. Open Live Version:
 
@@ -37,4 +37,6 @@ python3 -m http.server 5500
 firefox http://localhost:5500/encrypt/
 ```
 
-![Screenshot of Encrypt](assets/screenshot/encrypt-2025-11-27-12-09-03.png)
+## Screenshot
+
+![Screenshot of Encrypt](/assets/screenshot/2026/01/21/encrypt.png)

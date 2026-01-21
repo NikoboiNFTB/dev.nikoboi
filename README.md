@@ -8,7 +8,7 @@ This repository contains my website, which contains several lightweight, open-so
 
 | Site | Description | Live | README & Source |
 | - | - | - | - |
-| **Home** | Simple link portal | [Home](https://nikoboi.dev/) | [README](#nikoboidev) |
+| **Home** | Simple link portal | [Home](https://nikoboi.dev/) | [README](#home) |
 | **Bingo** | Very simple, clean and Open-Source Bingo host and client. | [Bingo](https://nikoboi.dev/bingo) | [README](bingo/README.md) |
 | **Encryptor** | Easily encrypt and decrypt your messages, because fuck Chat Control. | [Encrypt](https://nikoboi.dev/encrypt) | [README](encrypt/README.md) |
 | **Open Links** | Quickly open multiple URLs in new browser tabs. | [Open Links](https://nikoboi.dev/links) | [README](links/README.md) |
@@ -33,7 +33,7 @@ A simple, free and open-source portal where all of my projects and social media 
 
 ### Screenshot
 
-![Screenshot of Root](assets/screenshot/root-2025-11-27-12-06-39.png)
+![Screenshot of Home](/assets/screenshot/2026/01/21/home.png)
 
 ## Repository Structure
 
@@ -49,15 +49,16 @@ A simple, free and open-source portal where all of my projects and social media 
 │   │   └── *.svg
 │   │
 │   ├── screenshot
-│   │   └── *.png
+│   │   ├── 2025
+│   │   │   └── *.png
+│   │   └── 2026
+│   │       └── *.svg
 │   │
 │   ├── svg
 │   │   ├── brand
 │   │   │   └── *.svg
-│   │   │
 │   │   ├── nikoboi
 │   │   │   └── *
-│   │   │
 │   │   └── regular
 │   │       └── *.svg
 │   │
@@ -106,16 +107,12 @@ A simple, free and open-source portal where all of my projects and social media 
 │   ├── git
 │   │   ├── bulk
 │   │   │   └── *
-│   │   │
 │   │   ├── clone
 │   │   │   └── *
-│   │   │
 │   │   ├── repo
 │   │   │   └── *
-│   │   │
 │   │   ├── setup
 │   │   │   └── *
-│   │   │
 │   │   └── ssh
 │   │       └── *
 │   |

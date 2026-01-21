@@ -12,31 +12,45 @@
 │   │   ├── themoviedb32.png
 │   │   └── youtube144.png
 │   ├── screenshot
-│   │   ├── bingo-2025-11-20.png
-│   │   ├── bingo-2025-11-26-11-50-44.png
-│   │   ├── bingo-2025-11-27-12-07-39.png
-│   │   ├── bingo-client-2025-11-20.png
-│   │   ├── bingo-client-2025-11-26-11-51-12.png
-│   │   ├── bingo-client-2025-11-27-12-08-09.png
-│   │   ├── bingo-host-2025-11-20.png
-│   │   ├── bingo-host-2025-11-21.png
-│   │   ├── bingo-host-2025-11-26-11-51-41.png
-│   │   ├── bingo-host-2025-11-27-12-08-35.png
-│   │   ├── encrypt-2025-11-17.png
-│   │   ├── encrypt-2025-11-20.png
-│   │   ├── encrypt-2025-11-27-12-09-03.png
-│   │   ├── links-2025-11-17.png
-│   │   ├── links-2025-11-20.png
-│   │   ├── links-2025-11-21.png
-│   │   ├── links.png
-│   │   ├── open-links-2025-11-17.png
-│   │   ├── open-links-2025-11-20.png
-│   │   ├── open-links.png
-│   │   ├── root-2025-11-26-11-49-56.png
-│   │   ├── root-2025-11-27-12-06-39.png
-│   │   ├── video-player-2025-11-17.png
-│   │   ├── video-player-2025-11-20.png
-│   │   └── video-player.png
+│   │   ├── 2025
+│   │   │   └── 11
+│   │   │       ├── 17
+│   │   │       │   ├── encrypt.png
+│   │   │       │   ├── links.png
+│   │   │       │   ├── open-links.png
+│   │   │       │   └── video-player.png
+│   │   │       ├── 20
+│   │   │       │   ├── bingo-client.png
+│   │   │       │   ├── bingo-host.png
+│   │   │       │   ├── bingo.png
+│   │   │       │   ├── encrypt.png
+│   │   │       │   ├── links.png
+│   │   │       │   ├── open-links.png
+│   │   │       │   └── video-player.png
+│   │   │       ├── 21
+│   │   │       │   ├── bingo-host.png
+│   │   │       │   └── links.png
+│   │   │       ├── 26
+│   │   │       │   ├── bingo-client.png
+│   │   │       │   ├── bingo-host.png
+│   │   │       │   ├── bingo.png
+│   │   │       │   └── home.png
+│   │   │       └── 27
+│   │   │           ├── bingo-client.png
+│   │   │           ├── bingo-host.png
+│   │   │           ├── bingo.png
+│   │   │           ├── encrypt.png
+│   │   │           └── home.png
+│   │   └── 2026
+│   │       └── 01
+│   │           └── 21
+│   │               ├── bingo-host.png
+│   │               ├── bingo-play.png
+│   │               ├── bingo.png
+│   │               ├── encrypt.png
+│   │               ├── home.png
+│   │               ├── links.png
+│   │               └── player.png
 │   ├── svg
 │   │   ├── brand
 │   │   │   ├── 11ty.svg
@@ -941,4 +955,4 @@
 ├── todo.txt
 └── tree.txt
 
-37 directories, 905 files
+47 directories, 909 files

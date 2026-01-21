@@ -1,14 +1,14 @@
-## Bingo
+# Bingo
 
 A simple, free and open-source Bingo game.
 
-### Features
+## Features
 
 - Separate Play and Host views.
 - Clean, minimal interface.
 - Fully open-source and easily forkable for personal use.
 
-### Usage
+## Usage
 
 **Option 1**. Open Live Version:
 
@@ -41,10 +41,10 @@ firefox http://localhost:5500/bingo/index.html
 
 You can also open `http://<PC-ip>:5500/bingo/index.html` on any device in your LAN.
 
-### Screenshots
+## Screenshots
 
-![Screenshot of Bingo](assets/screenshot/bingo-2025-11-27-12-07-39.png)
+![Screenshot of Bingo](/assets/screenshot/2026/01/21/bingo.png)
 
-![Screenshot of Bingo Client](assets/screenshot/bingo-client-2025-11-27-12-08-09.png)
+![Screenshot of Bingo Play](/assets/screenshot/2026/01/21/bingo-play.png)
 
-![Screenshot of Bingo Host](assets/screenshot/bingo-host-2025-11-27-12-08-35.png)
+![Screenshot of Bingo Host](/assets/screenshot/2026/01/21/bingo-host.png)
