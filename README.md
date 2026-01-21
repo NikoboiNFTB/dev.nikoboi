@@ -6,13 +6,13 @@ This repository contains my website, which contains several lightweight, open-so
 
 ## Overview of Tools
 
-| Site | Description | Live | Source | README |
-| - | - | - | - | - |
-| **Home** | Simple site for easy access to all of my socials | [root](https://nikoboi.dev/) | [root](https://github.com/NikoboiNFTB/nikoboinftb.github.io/) | a |
-| **Bingo** | Very simple, clean and Open-Source Bingo host and client. | [bingo](https://nikoboi.dev/bingo) | [bingo](https://github.com/NikoboiNFTB/nikoboinftb.github.io/tree/main/bingo) | a |
-| **Encryptor** | Easily encrypt and decrypt your messages, because fuck Chat Control. | [encrypt](https://nikoboi.dev/encrypt) | [encrypt](https://github.com/NikoboiNFTB/nikoboinftb.github.io/tree/main/encrypt) | a |
-| **Open Links** | Quickly open multiple URLs in new browser tabs. | [links](https://nikoboi.dev/links) | [links](https://github.com/NikoboiNFTB/nikoboinftb.github.io/tree/main/links) | a |
-| **Userscript Safety Guide** | A simple tutorial to guide you in safe installation and use of userscripts. | [safety](https://nikoboi.dev/safety) | [safety](https://github.com/NikoboiNFTB/nikoboinftb.github.io/tree/main/safety) | a |
+| Site | Description | Live | README & Source |
+| - | - | - | - |
+| **Home** | Simple site for easy access to all of my socials | [root](https://nikoboi.dev/) | [root](https://github.com/NikoboiNFTB/nikoboinftb.github.io/) |
+| **Bingo** | Very simple, clean and Open-Source Bingo host and client. | [bingo](https://nikoboi.dev/bingo) | [bingo](https://github.com/NikoboiNFTB/nikoboinftb.github.io/tree/main/bingo) |
+| **Encryptor** | Easily encrypt and decrypt your messages, because fuck Chat Control. | [encrypt](https://nikoboi.dev/encrypt) | [encrypt](https://github.com/NikoboiNFTB/nikoboinftb.github.io/tree/main/encrypt) |
+| **Open Links** | Quickly open multiple URLs in new browser tabs. | [links](https://nikoboi.dev/links) | [links](https://github.com/NikoboiNFTB/nikoboinftb.github.io/tree/main/links) |
+| **Userscript Safety Guide** | A simple tutorial to guide you in safe installation and use of userscripts. | [safety](https://nikoboi.dev/safety) | [safety](https://github.com/NikoboiNFTB/nikoboinftb.github.io/tree/main/safety) |
 
 ## Home
 
