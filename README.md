@@ -16,7 +16,7 @@ This repository contains my website, which contains several lightweight, open-so
 
 ## Home
 
-A simple, free and open-source portal where all of my projects and social media accounts can be found. The code is easily tweakable, so others can create their own social portals based on this project (feel free to do so :D). Most socials have icons in [`/assets/svg/brand/`](https://github.com/NikoboiNFTB/nikoboinftb.github.io/tree/main/assets/svg/brand).
+A simple, free and open-source portal where all of my projects and social media accounts can be found. The code is easily tweakable, so others can create their own social portals based on this project (feel free to do so :D). Most socials have icons in [`/assets/svg/brand/`](assets/svg/brand).
 
 ### Features
 
