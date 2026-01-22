@@ -5,12 +5,11 @@ set -e
 author="$1"
 
 if [ -z "$author" ]; then
-    read -rp "Target Author (GitHub Username): " author
+    read -rp "Enter GitHub username of target: " author
 fi
-
 [ -z "$author" ] && { echo "No username entered. Exiting."; exit 1; }
 
-read -rp "ssh/HTTPS: " method
+read -rp "SSH or HTTPS (if unsure, type HTTPS or hit Enter): " method
 method=$(echo "$method" | tr '[:upper:]' '[:lower:]')
 
 if [[ "$method" == "ssh" ]]; then
@@ -25,28 +24,32 @@ echo "Fetching repo list for $author..."
 repos=$(curl -s "https://api.github.com/users/$author/repos?per_page=200" \
         | jq -r '.[].name')
 
-if [ -z "$repos" ]; then
-    echo "No repositories found (or GitHub API said no)."
-    exit 1
-fi
+[ -z "$repos" ] && { echo "No repositories found."; exit 1; }
 
 mkdir -p "$author"
 cd "$author" || exit 1
 
-echo "Cloning using $method..."
-for repo in $repos; do
-    if [ -d "$repo/.git" ]; then
-        echo "$repo already exists, skipping."
-        continue
-    fi
+JOBS="${JOBS:-32}"
 
-    echo "Cloning $repo..."
-    if git clone "$clone_prefix/$repo.git" >/dev/null 2>&1; then
-        echo "Cloned $repo"
-    else
-        echo "Failed to clone $repo" >&2
-    fi
-done
+echo "Cloning using $method ($JOBS parallel jobs)..."
+
+export clone_prefix
+
+echo "$repos" | xargs -n 1 -P "$JOBS" -I {} bash -c '
+repo="{}"
+
+if [ -d "$repo/.git" ]; then
+    echo "$repo already exists, skipping."
+    exit 0
+fi
+
+echo "Cloning $repo..."
+if git clone "$clone_prefix/$repo.git" >/dev/null 2>&1; then
+    echo "Cloned $repo"
+else
+    echo "Failed to clone $repo" >&2
+fi
+'
 
 echo "Done!"
 

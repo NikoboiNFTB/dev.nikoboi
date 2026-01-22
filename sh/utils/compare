@@ -1,84 +1,34 @@
-#!/usr/bin/env bash
+#!/bin/bash
 set -euo pipefail
 
-PUBLIC_API="https://api.github.com/repos/NikoboiNFTB/nikoboinftb.github.io/contents/sh"
-REPO_API="https://api.github.com/repos/NikoboiNFTB/GitHub-Tools/contents/shell"
+# Repo URLs and names
+REPO1_URL="https://github.com/NikoboiNFTB/nikoboinftb.github.io.git"
+REPO2_URL="https://github.com/NikoboiNFTB/GitHub-Tools.git"
+REPO1_NAME="nikoboinftb.github.io"
+REPO2_NAME="GitHub-Tools"
 
-PUBLIC_BASE="https://nikoboi.dev/sh"
-REPO_BASE="https://raw.githubusercontent.com/NikoboiNFTB/GitHub-Tools/refs/heads/main/shell"
+# Create temporary directories
+TMP_DIR1=$(mktemp -d)
+TMP_DIR2=$(mktemp -d)
 
-TMP_PUBLIC=$(mktemp -d)
-TMP_REPO=$(mktemp -d)
-trap 'rm -rf "$TMP_PUBLIC" "$TMP_REPO"' EXIT
-
-echo
-echo "Listing files..."
-list_files() {
-    curl -s "$1" \
-        | grep '"name"' \
-        | cut -d'"' -f4
+# Ensure cleanup on exit
+cleanup() {
+    rm -rf "$TMP_DIR1" "$TMP_DIR2"
 }
+trap cleanup EXIT
 
-PUBLIC_FILES=$(list_files "$PUBLIC_API")
-REPO_FILES=$(list_files "$REPO_API")
+# Clone the repositories silently
+git clone -q "$REPO1_URL" "$TMP_DIR1"
+git clone -q "$REPO2_URL" "$TMP_DIR2"
 
-echo
-echo "Files:"
-echo
+# Compare directories recursively and replace temp paths with repo names
+DIFF_OUTPUT=$(diff -qr "$TMP_DIR1/sh" "$TMP_DIR2/shell" 2>/dev/null | \
+    sed "s|$TMP_DIR1|$REPO1_NAME|g; s|$TMP_DIR2|$REPO2_NAME|g" || true)
 
-paste \
-  <(printf '%s\n' "$PUBLIC_FILES") \
-  <(printf '%s\n' "$REPO_FILES") \
-| expand -t 24 \
-| sed '1i\
-Website                 Repository\
--------                 ----------'
-
-echo
-echo "Files listed"
-echo
-echo "Comparing files..."
-echo
-
-DIFF_COUNT=0
-MISS_PUBLIC_COUNT=0
-MISS_REPO_COUNT=0
-
-ALL_FILES=$(printf "%s\n%s\n" "$PUBLIC_FILES" "$REPO_FILES" | sort -u)
-
-for f in $ALL_FILES; do
-    in_public=$(printf "%s\n" "$PUBLIC_FILES" | grep -qx "$f" && echo yes || echo no)
-    in_repo=$(printf "%s\n" "$REPO_FILES" | grep -qx "$f" && echo yes || echo no)
-
-    if [ "$in_public" = yes ] && [ "$in_repo" = yes ]; then
-        curl -s -o "$TMP_PUBLIC/$f" "$PUBLIC_BASE/$f"
-        curl -s -o "$TMP_REPO/$f" "$REPO_BASE/$f"
-
-        if diff -q "$TMP_PUBLIC/$f" "$TMP_REPO/$f" >/dev/null; then
-            echo "  OK   $f"
-        else
-            echo "  DIFF $f"
-            DIFF_COUNT=$((DIFF_COUNT + 1))
-        fi
-
-    elif [ "$in_public" = no ]; then
-        echo "  MISSING from nikoboi.dev: $f"
-        MISS_PUBLIC_COUNT=$((MISS_PUBLIC_COUNT + 1))
-
-    else
-        echo "  MISSING from github.com: $f"
-        MISS_REPO_COUNT=$((MISS_REPO_COUNT + 1))
-    fi
-done
-
-echo
-echo "Summary:"
-if [ $DIFF_COUNT -eq 0 ] && [ $MISS_PUBLIC_COUNT -eq 0 ] && [ $MISS_REPO_COUNT -eq 0 ]; then
-    echo "  File comparison complete. All files OK."
+# Print clean output
+if [[ -z "$DIFF_OUTPUT" ]]; then
+    echo "✅ No differences found between the directories."
 else
-    [ $DIFF_COUNT -gt 0 ] && echo "  DIFF found: $DIFF_COUNT"
-    [ $MISS_PUBLIC_COUNT -gt 0 ] && echo "  Missing from nikoboi.dev: $MISS_PUBLIC_COUNT"
-    [ $MISS_REPO_COUNT -gt 0 ] && echo "  Missing from github.com: $MISS_REPO_COUNT"
+    echo "⚠️ Differences found:"
+    echo "$DIFF_OUTPUT"
 fi
-
-echo
