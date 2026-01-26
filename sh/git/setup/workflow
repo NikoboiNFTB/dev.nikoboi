@@ -11,7 +11,7 @@ fi
 # Definitions
 AUTHOR="NikoboiNFTB"
 ROOT_DIR="$HOME/GitHub"
-AUTHOR_DIR="$HOME/GitHub/$AUTHOR"
+AUTHOR_DIR="$ROOT_DIR/$AUTHOR"
 mkdir -p "$AUTHOR_DIR"
 cd "$AUTHOR_DIR"
 
@@ -29,10 +29,25 @@ if [ -z "$repos" ]; then
     exit 1
 fi
 echo
-echo "Found $(echo "$repos" | wc -w) repositories. Cloning/pulling all..."
+echo "Found $(echo "$repos" | wc -w) repositories."
 echo
 
-# Clone
+# Ask for clone method and set prefix
+read -p "Clone method (https/SSH): " CLONE_METHOD
+CLONE_METHOD=${CLONE_METHOD,,}
+if [ "$CLONE_METHOD" = "https" ]; then
+    CLONE_PREFIX="https://github.com/"
+    CLONE_METHOD=HTTPS
+else
+    CLONE_PREFIX="git@github.com:"
+    CLONE_METHOD=SSH
+fi
+
+echo
+echo "Cloning/Updating all using $CLONE_METHOD..."
+echo
+
+# Clone/Update
 for repo in $repos; do
     (
         if [ -d "$repo/.git" ]; then
@@ -40,7 +55,7 @@ for repo in $repos; do
             cd "$repo" && git pull --quiet || echo "Pulling $repo failed"
         else
             echo "Cloning $repo..."
-            git clone --quiet "git@github.com:$AUTHOR/$repo.git" || echo "Cloning $repo failed"
+            git clone --quiet "${CLONE_PREFIX}${AUTHOR}/${repo}.git" || echo "Cloning $repo failed"
         fi
     ) &
 done
