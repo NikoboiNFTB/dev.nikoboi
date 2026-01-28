@@ -1,5 +1,3 @@
-⚠️ This repository is undergoing large changes. README.md files may not be accurate.
-
 # nikoboi.dev
 
 This repository contains my website, which contains several lightweight, open-source web tools. All tools are fully client-side, easy to use, and open-source under the **GPLv3 License**.

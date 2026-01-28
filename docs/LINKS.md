@@ -1,5 +1,3 @@
-⚠️ This repository is undergoing large changes. README.md files may not be accurate.
-
 # Open Links
 
 A lightweight tool for opening multiple URLs at once in new tabs. Useful for bulk opening tabs. A great extra tool to use with [Link Gopher](https://addons.mozilla.org/en-US/firefox/addon/link-gopher/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search) (just as they likely intended "... or copy and paste into other systems").
@@ -17,26 +15,25 @@ A lightweight tool for opening multiple URLs at once in new tabs. Useful for bul
 
 [https://nikoboi.dev/links](https://nikoboi.dev/links)
 
-**Option 2**. Download and Run locally (recommended):
+**Option 2**: Download & Run Locally (recommended):
 
 1. Create a folder anywhere, open the terminal in it and run:
 
 ```bash
-git clone https://github.com/NikoboiNFTB/nikoboinftb.github.io
-cd nikoboinftb.github.io
+git clone https://github.com/NikoboiNFTB/nikoboinftb.github.io .
 ```
 
-2. Start a Python server (this is local):
+>> Using `.` clones the files into the current directory. So create the folder first.
+
+2. Start a local Python server:
+
 ```bash
 python3 -m http.server 5500
 ```
 
 >> Requires Python
 
-3. Then just open in your browser: [http://localhost:5500/links/](http://localhost:5500/links/)
-```bash
-firefox http://localhost:5500/links/
-```
+3. Visit your server [here](http://localhost:5500/links/).
 
 4. Paste URLs (one per line), click **Open All Links**, or **Clear Links** to reset.
 

@@ -1,5 +1,3 @@
-⚠️ This repository is undergoing large changes. README.md files may not be accurate.
-
 # Home
 
 A simple, free and open-source portal where all of my projects and social media accounts can be found. The code is easily tweakable, so others can create their own social portals based on this project (feel free to do so :D). Most socials have icons in [`/assets/svg/brand/`](assets/svg/brand).
@@ -12,13 +10,11 @@ A simple, free and open-source portal where all of my projects and social media 
 
 ## Usage
 
-## Usage
-
 **Option 1**. Open Live Version:
 
 [https://nikoboi.dev/encrypt/](https://nikoboi.dev/encrypt/)
 
-**Option 2**. Download and Run/Edit locally:
+**Option 2**: Download & Edit Locally:
 
 1. Create a folder anywhere, open the terminal in it and run:
 
@@ -34,7 +30,7 @@ git clone https://github.com/NikoboiNFTB/nikoboinftb.github.io .
 codium .
 ```
 
-3. Edit
+3. Edit.
 
 >> Recommended: Use [Five Server](https://marketplace.visualstudio.com/items?itemName=yandeu.five-server) to open the index.html in your browser, which automatically applies any changes made.
 

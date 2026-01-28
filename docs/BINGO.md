@@ -1,5 +1,3 @@
-⚠️ This repository is undergoing large changes. README.md files may not be accurate.
-
 # Bingo
 
 A simple, free and open-source Bingo game.
@@ -20,28 +18,25 @@ A simple, free and open-source Bingo game.
 
 >> Not recommended, as you wont have HTTPS, which is annoying on *some* secure browsers
 
-1. Clone this repository, in terminal, run:
+1. Create a folder anywhere, open the terminal in it and run:
 
 ```bash
-git clone https://github.com/NikoboiNFTB/nikoboinftb.github.io
-cd nikoboinftb.github.io
+git clone https://github.com/NikoboiNFTB/nikoboinftb.github.io .
 ```
 
-2. Start a Python server:
+>> Using `.` clones the files into the current directory. So create the folder first.
+
+2. Start a local Python server:
+
 ```bash
 python3 -m http.server 5500
 ```
 
 >> Requires Python
 
-3. Visit the server by running:
-```bash
-firefox http://localhost:5500/bingo/index.html
-```
+3. Visit your server [here](http://localhost:5500/bingo/).
 
->> Any browser works.
-
-You can also open `http://<PC-ip>:5500/bingo/index.html` on any device in your LAN.
+You can also open `http://<your-PC-ip>:5500/bingo/` on any device in your LAN.
 
 ## Screenshots
 
