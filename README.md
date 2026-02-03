@@ -19,98 +19,106 @@ This repository contains my website, which contains several lightweight, open-so
 ```text
 .
 ├── assets
-│   ├── logo
-│   │   ├── *.ico
-│   │   ├── *.jpeg
-│   │   ├── *.png
-│   │   └── *.svg
-│   │
-│   ├── screenshot
-│   │   └── YYYY
-│   │       └── MM
-│   │           └── DD
-│   │               └── *.png
-│   │
-│   ├── svg
-│   │   ├── brand
-│   │   │   └── *.svg
-│   │   ├── nikoboi
-│   │   │   └── *
-│   │   └── regular
-│   │       └── *.svg
-│   │
-│   └── clippy.png
+│   └── *
 │
 ├── bingo
 │   ├── host
 │   │   ├── index.html
 │   │   ├── script.js
 │   │   └── style.css
-│   │
 │   ├── play
 │   │   ├── index.html
 │   │   ├── script.js
 │   │   └── style.css
-│   │
 │   ├── index.html
-│   ├── README.md
 │   └── style.css
+│
+├── deslop
+│   └── index.html
+├── discord
+│   └── index.html
+│
+├── docs
+│   ├── BINGO.md
+│   ├── ENCRYPT.md
+│   ├── HOME.md
+│   └── LINKS.md
 │
 ├── encrypt
 │   ├── index.html
-│   ├── README.md
 │   ├── script.js
 │   ├── style.css
 │   └── test.js
 │
-├── js
-│   └── safety
-│       ├── index.html
-│       └── style.css
+├── github
+│   └── index.html
 │
 ├── links
 │   ├── index.html
-│   ├── README.md
 │   ├── script.js
 │   └── style.css
 │
 ├── player
 │   ├── index.html
-│   ├── README.md
 │   ├── script.js
 │   └── style.css
 │
-├── sh
+├── safety
+│   ├── index.html
+│   └── style.css
+│
+├── shell
 │   ├── git
 │   │   ├── bulk
-│   │   │   └── *
+│   │   │   ├── all-pull
+│   │   │   ├── all-push
+│   │   │   ├── all-status
+│   │   │   ├── ignore
+│   │   │   └── ignore-reset
+│   │   │
 │   │   ├── clone
-│   │   │   └── *
+│   │   │   ├── clone-author
+│   │   │   └── clone-repo
+│   │   │
+│   │   ├── mass
+│   │   │   └── mass-pull
+│   │   │
 │   │   ├── repo
-│   │   │   └── *
+│   │   │   ├── pull
+│   │   │   ├── push
+│   │   │   └── status
+│   │   │
 │   │   ├── setup
-│   │   │   └── *
+│   │   │   ├── automation
+│   │   │   ├── git
+│   │   │   └── workflow
+│   │   │
 │   │   └── ssh
-│   │       └── *
-│   |
+│   │       ├── disable-ssh
+│   │       └── enable-ssh
+│   │
+│   ├── gp8
+│   │   └── install
+│   │
 │   └── utils
+│       ├── SORTME.txt
 │       ├── compare
-│       ├── sort-file
-│       └── test123.txt
+│       ├── find-file
+│       └── sort
 │
 ├── CNAME
+├── LICENSE
+├── README.md
 ├── favicon.ico
 ├── favicon.png
 ├── index.html
-├── LICENSE
-├── README.md
 ├── robots.txt
 ├── sitemap.xml
 ├── style.css
-├── todo.txt
+├── tree
 └── tree.txt
 
-37 directories, 905 files
+66 directories, 5724 files
 ```
 
 ## Contributing

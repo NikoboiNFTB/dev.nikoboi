@@ -1,10 +1,5 @@
 #!/usr/bin/env bash
 
-set -euo pipefail
+set -e
 
-command -v tree >/dev/null || {
-  echo "Error: tree is not installed" >&2
-  exit 1
-}
-
-tree --dirsfirst -v > tree.txt
+tree --dirsfirst -v > tree.txt || echo "Error: failed to run tree"
