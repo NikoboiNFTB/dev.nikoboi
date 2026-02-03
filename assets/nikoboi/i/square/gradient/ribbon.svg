@@ -10,7 +10,5 @@
     </radialGradient>
   </defs>
   <rect width="400" height="400" fill="url(#bgGradient)"/>
-  <rect x="100" y="60" width="60" height="280" fill="url(#nGradient)"/>
-  <rect x="240" y="60" width="60" height="280" fill="url(#nGradient)"/>
-  <polygon points="100,60 160,60 300,340 240,340" fill="url(#nGradient)"/>
+  <rect x="170" y="60" width="60" height="280" fill="url(#nGradient)"/>
 </svg>
