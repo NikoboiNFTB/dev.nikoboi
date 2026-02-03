@@ -107,7 +107,6 @@ p {
 img.icon {
     width: var(--img-size);
     height: var(--img-size);
-    filter: invert(1) brightness(2);
 }
 
 img.round {
@@ -118,8 +117,8 @@ img.rounded {
     border-radius: calc(var(--img-size) * 0.25);
 }
 
-img.no-filter {
-    filter: none;
+img.filter {
+    filter: invert(1) brightness(2);
 }
 
 .footer {
