@@ -68,6 +68,10 @@ p {
     margin: var(--margin);
 }
 
+div.indent p {
+  margin-left: 2em;
+}
+
 h2 {
     font-size: calc(var(--font-size) * 1.5);
     margin: var(--margin);
