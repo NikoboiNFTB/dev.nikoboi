@@ -1,5 +1,7 @@
 .
 ├── assets
+│   ├── custom
+│   │   └── discord.svg
 │   ├── deslop
 │   │   └── icon.svg
 │   ├── favicon
@@ -5936,7 +5938,7 @@
 │   │   ├── YouTube_play_button_icon_(2013–2017).svg
 │   │   └── logo--snapchat.svg
 │   └── clippy.png
-├── automation
+├── auto
 │   ├── pull
 │   ├── push
 │   └── status
@@ -5988,12 +5990,17 @@
 │   │       └── workflow
 │   ├── gp8
 │   │   └── install
+│   ├── proton
+│   │   ├── install-icons
+│   │   └── setup
 │   └── utils
 │       ├── SORTME.txt
 │       ├── compare
+│       ├── find-.-filter-files
 │       ├── find-file
 │       ├── find-string
-│       └── sort
+│       ├── sort
+│       └── sync
 ├── CNAME
 ├── LICENSE
 ├── README.md
@@ -6004,4 +6011,4 @@
 ├── tree
 └── tree.txt
 
-82 directories, 5923 files
+84 directories, 5928 files
