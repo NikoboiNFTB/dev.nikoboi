@@ -5953,10 +5953,6 @@
 │   │   └── style.css
 │   ├── index.html
 │   └── style.css
-├── deslop
-│   └── index.html
-├── discord
-│   └── index.html
 ├── docs
 │   ├── BINGO.md
 │   ├── ENCRYPT.md
@@ -5967,8 +5963,6 @@
 │   ├── script.js
 │   ├── style.css
 │   └── test.js
-├── github
-│   └── index.html
 ├── links
 │   ├── index.html
 │   ├── script.js
@@ -5981,26 +5975,6 @@
 │   ├── index.html
 │   ├── script.js
 │   └── style.css
-├── shell
-│   ├── git
-│   │   └── setup
-│   │       ├── automation
-│   │       ├── gh
-│   │       ├── git
-│   │       └── workflow
-│   ├── gp8
-│   │   └── install
-│   ├── proton
-│   │   ├── install-icons
-│   │   └── setup
-│   └── utils
-│       ├── SORTME.txt
-│       ├── compare
-│       ├── find-.-filter-files
-│       ├── find-file
-│       ├── find-string
-│       ├── sort
-│       └── sync
 ├── CNAME
 ├── LICENSE
 ├── README.md
@@ -6011,4 +5985,4 @@
 ├── tree
 └── tree.txt
 
-84 directories, 5928 files
+75 directories, 5911 files
