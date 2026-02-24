@@ -16,7 +16,7 @@ A simple, browser-based text encryption tool using AES256-CBC-HMAC-SHA256 encryp
 
 1. Clone the repository:
 
-`git clone https://github.com/NikoboiNFTB/nikoboinftb.github.io`
+`git clone https://github.com/NikoboiNFTB/dev.nikoboi`
 
 2. Open `/encrypt/index.html` in a (modern) browser.
 

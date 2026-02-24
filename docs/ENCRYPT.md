@@ -19,7 +19,7 @@ A lightweight, free and open-source web tool to encrypt and decrypt text quickly
 1. Create a folder anywhere, open the terminal in it and run:
 
 ```bash
-git clone https://github.com/NikoboiNFTB/nikoboinftb.github.io .
+git clone https://github.com/NikoboiNFTB/dev.nikoboi .
 ```
 
 >> Using `.` clones the files into the current directory. So create the folder first.
