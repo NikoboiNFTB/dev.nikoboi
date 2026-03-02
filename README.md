@@ -20,25 +20,7 @@ This repository contains my website, which contains several lightweight, open-so
 ├── assets
 │   └── *
 │
-├── bingo
-│   ├── host
-│   │   ├── index.html
-│   │   ├── script.js
-│   │   └── style.css
-│   ├── play
-│   │   ├── index.html
-│   │   ├── script.js
-│   │   └── style.css
-│   ├── index.html
-│   └── style.css
-│
-├── deslop
-│   └── index.html
-├── discord
-│   └── index.html
-│
 ├── docs
-│   ├── BINGO.md
 │   ├── ENCRYPT.md
 │   ├── HOME.md
 │   └── LINKS.md
@@ -48,9 +30,6 @@ This repository contains my website, which contains several lightweight, open-so
 │   ├── script.js
 │   ├── style.css
 │   └── test.js
-│
-├── github
-│   └── index.html
 │
 ├── links
 │   ├── index.html
@@ -65,45 +44,6 @@ This repository contains my website, which contains several lightweight, open-so
 ├── safety
 │   ├── index.html
 │   └── style.css
-│
-├── shell
-│   ├── git
-│   │   ├── bulk
-│   │   │   ├── all-pull
-│   │   │   ├── all-push
-│   │   │   ├── all-status
-│   │   │   ├── ignore
-│   │   │   └── ignore-reset
-│   │   │
-│   │   ├── clone
-│   │   │   ├── clone-author
-│   │   │   └── clone-repo
-│   │   │
-│   │   ├── mass
-│   │   │   └── mass-pull
-│   │   │
-│   │   ├── repo
-│   │   │   ├── pull
-│   │   │   ├── push
-│   │   │   └── status
-│   │   │
-│   │   ├── setup
-│   │   │   ├── automation
-│   │   │   ├── git
-│   │   │   └── workflow
-│   │   │
-│   │   └── ssh
-│   │       ├── disable-ssh
-│   │       └── enable-ssh
-│   │
-│   ├── gp8
-│   │   └── install
-│   │
-│   └── utils
-│       ├── SORTME.txt
-│       ├── compare
-│       ├── find-file
-│       └── sort
 │
 ├── CNAME
 ├── LICENSE

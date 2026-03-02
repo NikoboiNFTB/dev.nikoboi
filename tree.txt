@@ -1,9 +1,9 @@
 .
 ├── assets
 │   ├── custom
-│   │   └── discord.svg
-│   ├── deslop
-│   │   └── icon.svg
+│   │   ├── deslop.svg
+│   │   ├── discord.svg
+│   │   └── snapchat-ff.png
 │   ├── favicon
 │   │   ├── discord.com
 │   │   │   └── 6266bc493fb42d4e27bb8393_847541504914fd33810e70a0ea73177e.ico
@@ -5917,9 +5917,6 @@
 │   │   └── 2026
 │   │       └── 01
 │   │           └── 21
-│   │               ├── bingo-host.png
-│   │               ├── bingo-play.png
-│   │               ├── bingo.png
 │   │               ├── encrypt.png
 │   │               ├── home.png
 │   │               ├── links.png
@@ -5942,19 +5939,7 @@
 │   ├── pull
 │   ├── push
 │   └── status
-├── bingo
-│   ├── host
-│   │   ├── index.html
-│   │   ├── script.js
-│   │   └── style.css
-│   ├── play
-│   │   ├── index.html
-│   │   ├── script.js
-│   │   └── style.css
-│   ├── index.html
-│   └── style.css
 ├── docs
-│   ├── BINGO.md
 │   ├── ENCRYPT.md
 │   ├── HOME.md
 │   └── LINKS.md
@@ -5985,4 +5970,4 @@
 ├── tree
 └── tree.txt
 
-75 directories, 5911 files
+71 directories, 5900 files
