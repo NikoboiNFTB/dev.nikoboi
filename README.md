@@ -7,7 +7,6 @@ This repository contains my website, which contains several lightweight, open-so
 | Site | Description | README | Source |
 | ---- | ----------- | ------ | ------ |
 | **[Home](https://nikoboi.dev/)** | Simple link portal | [HOME.md](/docs/HOME.md) | [home.html](/index.html) |
-| **[Bingo](https://nikoboi.dev/bingo/)** | Very simple, clean and Open-Source Bingo host and client. | [BINGO.md](/docs/BINGO.md) | [bingo.html](/bingo/index.html) |
 | **[Encryptor](https://nikoboi.dev/encrypt/)** | Easily encrypt and decrypt your messages, because fuck Chat Control. | [ENCRYPT.md](/docs/ENCRYPT.md) | [encrypt.html](/encrypt/index.html) |
 | **[Open Links](https://nikoboi.dev/links/)** | Quickly open multiple URLs in new browser tabs. | [LINKS.md](/docs/LINKS.md) | [links.html](/links/index.html) |
 | **[Userscript Safety Guide](https://nikoboi.dev/safety/)** | A simple tutorial to guide you in safe installation and use of userscripts. | N/A | [safety.html](/safety/index.html) |
