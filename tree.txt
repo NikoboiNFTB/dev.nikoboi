@@ -5938,6 +5938,10 @@
 │   │   ├── YouTube_play_button_icon_(2013–2017).svg
 │   │   └── logo--snapchat.svg
 │   └── clippy.png
+├── auto
+│   ├── pull
+│   ├── push
+│   └── status
 ├── docs
 │   ├── ENCRYPT.md
 │   ├── HOME.md
@@ -5969,4 +5973,4 @@
 ├── tree
 └── tree.txt
 
-70 directories, 5900 files
+71 directories, 5903 files
