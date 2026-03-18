@@ -2,4 +2,4 @@
 
 set -e
 
-tree --dirsfirst -v > tree.txt || echo "Error: failed to run tree"
+tree --dirsfirst -v >tree.txt || echo "Error: failed to run tree"
