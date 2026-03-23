@@ -4,16 +4,16 @@ This repository contains my website, which contains several lightweight, open-so
 
 ## Overview of Tools
 
-| Site | Description | README | Source |
-| ---- | ----------- | ------ | ------ |
-| **[Home](https://nikoboi.dev/)** | Simple link portal | [HOME.md](/docs/HOME.md) | [home.html](/index.html) |
-| **[Encryptor](https://nikoboi.dev/encrypt/)** | Easily encrypt and decrypt your messages, because fuck Chat Control. | [ENCRYPT.md](/docs/ENCRYPT.md) | [encrypt.html](/encrypt/index.html) |
-| **[Open Links](https://nikoboi.dev/links/)** | Quickly open multiple URLs in new browser tabs. | [LINKS.md](/docs/LINKS.md) | [links.html](/links/index.html) |
-| **[Userscript Safety Guide](https://nikoboi.dev/safety/)** | A simple tutorial to guide you in safe installation and use of userscripts. | N/A | [safety.html](/safety/index.html) |
+| Site                                                       | Description                                                                 | README                         | Source                              |
+| ---------------------------------------------------------- | --------------------------------------------------------------------------- | ------------------------------ | ----------------------------------- |
+| **[Home](https://nikoboi.dev/)**                           | Simple link portal                                                          | [HOME.md](/docs/HOME.md)       | [home.html](/index.html)            |
+| **[Encryptor](https://nikoboi.dev/encrypt/)**              | Easily encrypt and decrypt your messages, because fuck Chat Control.        | [ENCRYPT.md](/docs/ENCRYPT.md) | [encrypt.html](/encrypt/index.html) |
+| **[Open Links](https://nikoboi.dev/links/)**               | Quickly open multiple URLs in new browser tabs.                             | [LINKS.md](/docs/LINKS.md)     | [links.html](/links/index.html)     |
+| **[Userscript Safety Guide](https://nikoboi.dev/safety/)** | A simple tutorial to guide you in safe installation and use of userscripts. | N/A                            | [safety.html](/safety/index.html)   |
 
 ## Repository Structure
 
->> Not a *full* tree. Only relevant bits, and examples where relevant. See [tree.txt](/tree.txt) for every file.
+> > Not a _full_ tree. Only relevant bits, and examples where relevant. See [tree.txt](/tree.txt) for every file.
 
 ```text
 .
