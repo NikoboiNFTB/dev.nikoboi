@@ -6,10 +6,10 @@ This repository contains my website, which contains several lightweight, open-so
 
 | Site                                                       | Description                                                                 | README                         | Source                              |
 | ---------------------------------------------------------- | --------------------------------------------------------------------------- | ------------------------------ | ----------------------------------- |
-| **[Home](https://nikoboi.dev/)**                           | Simple link portal                                                          | [HOME.md](/docs/HOME.md)       | [home.html](/index.html)            |
-| **[Encryptor](https://nikoboi.dev/encrypt/)**              | Easily encrypt and decrypt your messages, because fuck Chat Control.        | [ENCRYPT.md](/docs/ENCRYPT.md) | [encrypt.html](/encrypt/index.html) |
-| **[Open Links](https://nikoboi.dev/links/)**               | Quickly open multiple URLs in new browser tabs.                             | [LINKS.md](/docs/LINKS.md)     | [links.html](/links/index.html)     |
-| **[Userscript Safety Guide](https://nikoboi.dev/safety/)** | A simple tutorial to guide you in safe installation and use of userscripts. | N/A                            | [safety.html](/safety/index.html)   |
+| [**Home**](https://nikoboi.dev/)                           | Simple link portal                                                          | [HOME.md](/docs/HOME.md)       | [home.html](/index.html)            |
+| [**Encryptor**](https://nikoboi.dev/encrypt/)              | Easily encrypt and decrypt your messages, because fuck Chat Control.        | [ENCRYPT.md](/docs/ENCRYPT.md) | [encrypt.html](/encrypt/index.html) |
+| [**Open Links**](https://nikoboi.dev/links/)               | Quickly open multiple URLs in new browser tabs.                             | [LINKS.md](/docs/LINKS.md)     | [links.html](/links/index.html)     |
+| [**Userscript Safety Guide**](https://nikoboi.dev/safety/) | A simple tutorial to guide you in safe installation and use of userscripts. | N/A                            | [safety.html](/safety/index.html)   |
 
 ## Repository Structure
 
@@ -66,9 +66,9 @@ Feel free to fork this repository and submit issues or pull requests if you have
 
 ## Credits
 
-Created by **[Nikoboi](https://github.com/NikoboiNFTB/)**
+Created by [**Nikoboi**](https://github.com/NikoboiNFTB/)
 
-JavaScript fine-tuned with **[ChatGPT](https://chatgpt.com/)**
+JavaScript fine-tuned with [**ChatGPT**](https://chatgpt.com/)
 
 Theme inspired by the great nation of **Finland** 🇫🇮 and the perfectly cromulent color **black**.
 
