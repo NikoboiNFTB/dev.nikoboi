@@ -1,7 +1,7 @@
 :root {
-  --primary-color: #002F6C;
+  --primary-color: #002f6c;
   --text-color: #ffffff;
-  --link-color: #8097B6;
+  --link-color: #8097b6;
   --body-bg-color: #000000;
   --container-bg-color: #111111;
   --box-bg-color: #222222;
@@ -31,7 +31,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-
 }
 
 .container {
@@ -129,8 +128,6 @@ h2.header {
   color: var(--link-color);
 }
 
-
-
 /* Mobile */
 
 @media screen and (max-width: 480px) {
@@ -174,12 +171,12 @@ h2.header {
   textarea.password2,
   .button,
   output.output {
-    border-radius: calc(var(--border-radius) * 0.5);  
+    border-radius: calc(var(--border-radius) * 0.5);
     font-size: calc(var(--font-size) * 0.75);
     padding: calc(var(--padding) * 0.4);
   }
 
   .notice {
-    font-size: calc(var(--font-size) * 0.75)
+    font-size: calc(var(--font-size) * 0.75);
   }
 }

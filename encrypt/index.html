@@ -1,48 +1,50 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Text Encryptor | Nikoboi</title>
+    <link rel="icon" type="image/png" href="/assets/clippy.png" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Text Encryptor | Nikoboi</title>
-  <link rel="icon" type="image/png" href="/assets/clippy.png">
-  <link rel="stylesheet" href="style.css">
-</head>
+  <body>
+    <div class="container">
+      <h1 class="header">Text Encryptor</h1>
 
-<body>
+      <div class="input-row">
+        <textarea class="input" placeholder="Enter text here"></textarea>
+        <textarea class="password" placeholder="Password"></textarea>
+        <!--<textarea class="password2" placeholder="Second Password (Optional)"></textarea>-->
+      </div>
 
-  <div class="container">
-    <h1 class="header">Text Encryptor</h1>
+      <div class="button-row">
+        <button class="button encrypt">Encrypt</button>
+        <button class="button decrypt">Decrypt</button>
+        <button class="button copy-output">Copy Output</button>
+      </div>
 
-    <div class="input-row">
-      <textarea class="input" placeholder="Enter text here"></textarea>
-      <textarea class="password" placeholder="Password"></textarea>
-      <!--<textarea class="password2" placeholder="Second Password (Optional)"></textarea>-->
+      <output class="output"></output>
     </div>
 
-    <div class="button-row">
-      <button class="button encrypt">Encrypt</button>
-      <button class="button decrypt">Decrypt</button>
-      <button class="button copy-output">Copy Output</button>
-    </div>
+    <p class="footer">
+      This Tool is
+      <a
+        id="notice"
+        href="https://github.com/NikoboiNFTB/dev.nikoboi/tree/main/encrypt"
+        target="_blank"
+        >Open-Source</a
+      >!
+    </p>
 
-    <output class="output"></output>
+    <p class="footer">
+      Because Fuck
+      <a id="notice" href="https://fightchatcontrol.eu/" target="_blank"
+        >Chat Control</a
+      >!
+    </p>
 
-  </div>
-
-  <p class="footer">
-    This Tool is
-    <a id="notice" href="https://github.com/NikoboiNFTB/dev.nikoboi/tree/main/encrypt" target="_blank">Open-Source</a>!
-  </p>
-
-  <p class="footer">
-    Because Fuck
-    <a id="notice" href="https://fightchatcontrol.eu/" target="_blank">Chat Control</a>!
-  </p>
-
-  <script src="script.js"></script>
-  <script src="test.js"></script>
-
-</body>
-
+    <script src="script.js"></script>
+    <script src="test.js"></script>
+  </body>
 </html>

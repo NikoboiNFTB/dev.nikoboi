@@ -1,12 +1,12 @@
 :root {
   --text-color: #ffffff;
   --text-color2: #aaaaaa;
-  --primary-color: #002F6C;
+  --primary-color: #002f6c;
   --body-bg-color: #000000;
   --bg-color: #111111;
   --input-bg-color: #222222;
   --secondary-color: #333333;
-  --link-color: #8097B6;
+  --link-color: #8097b6;
 
   --gap: 16px;
   --border-radius: 16px;
@@ -16,7 +16,8 @@
   --margin: 16px;
 }
 
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
   min-height: 100%;
@@ -89,7 +90,9 @@ button {
   cursor: pointer;
   color: var(--text-color);
   background-color: var(--input-bg-color);
-  transition: background-color 0.2s ease, transform 0.2s ease;
+  transition:
+    background-color 0.2s ease,
+    transform 0.2s ease;
 }
 
 button:hover {
@@ -101,7 +104,9 @@ button:hover {
 #clearBtn {
   background-color: var(--input-bg-color);
   color: var(--text-color);
-  transition: background-color 0.2s ease, transform 0.2s ease;
+  transition:
+    background-color 0.2s ease,
+    transform 0.2s ease;
 }
 
 #openBtn:hover,

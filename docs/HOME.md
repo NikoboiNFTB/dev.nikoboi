@@ -22,7 +22,7 @@ A simple, free and open-source portal where all of my projects and social media 
 git clone https://github.com/NikoboiNFTB/dev.nikoboi .
 ```
 
->> Using `.` clones the files into the current directory. So create the folder first.
+> > Using `.` clones the files into the current directory. So create the folder first.
 
 2. Open the folder in any code editor, example using VSCodium:
 
@@ -32,7 +32,7 @@ codium .
 
 3. Edit.
 
->> Recommended: Use [Five Server](https://marketplace.visualstudio.com/items?itemName=yandeu.five-server) to open the index.html in your browser, which automatically applies any changes made.
+> > Recommended: Use [Five Server](https://marketplace.visualstudio.com/items?itemName=yandeu.five-server) to open the index.html in your browser, which automatically applies any changes made.
 
 ## Screenshot
 

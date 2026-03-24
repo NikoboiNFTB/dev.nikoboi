@@ -23,7 +23,7 @@ A lightweight tool for opening multiple URLs at once in new tabs. Useful for bul
 git clone https://github.com/NikoboiNFTB/dev.nikoboi .
 ```
 
->> Using `.` clones the files into the current directory. So create the folder first.
+> > Using `.` clones the files into the current directory. So create the folder first.
 
 2. Start a local Python server:
 
@@ -31,20 +31,21 @@ git clone https://github.com/NikoboiNFTB/dev.nikoboi .
 python3 -m http.server 5500
 ```
 
->> Requires Python
+> > Requires Python
 
 3. Visit your server [here](http://localhost:5500/links/).
 
 4. Paste URLs (one per line), click **Open All Links**, or **Clear Links** to reset.
 
 **Example input**:
+
 ```text
 https://www.instagram.com/nikoboi
 https://www.youtube.com/@NikoboiNFTB
 https://www.reddit.com/r/deslop
 ```
 
->> Shameless plug
+> > Shameless plug
 
 ## Screenshot
 

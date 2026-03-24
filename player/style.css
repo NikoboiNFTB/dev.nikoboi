@@ -6,7 +6,7 @@
   --text-color: #ffffff;
   --input-bg: #222222;
   --input-border: #333333;
-  --link-hover: #002F6C;
+  --link-hover: #002f6c;
 
   --gap: 16px;
   --margin: 8px;
@@ -15,7 +15,8 @@
   --font-size: 16px;
 }
 
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
   min-height: 100%;
@@ -90,7 +91,9 @@ button {
   cursor: pointer;
   color: #fff;
   background-color: var(--link-hover);
-  transition: background-color 0.3s ease, transform 0.2s ease;
+  transition:
+    background-color 0.3s ease,
+    transform 0.2s ease;
 }
 
 button:hover {

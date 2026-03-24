@@ -22,7 +22,7 @@ A lightweight, free and open-source web tool to encrypt and decrypt text quickly
 git clone https://github.com/NikoboiNFTB/dev.nikoboi .
 ```
 
->> Using `.` clones the files into the current directory. So create the folder first.
+> > Using `.` clones the files into the current directory. So create the folder first.
 
 2. Start a local Python server:
 
@@ -30,7 +30,7 @@ git clone https://github.com/NikoboiNFTB/dev.nikoboi .
 python3 -m http.server 5500
 ```
 
->> Requires Python
+> > Requires Python
 
 3. Visit your server [here](http://localhost:5500/encrypt/).
 

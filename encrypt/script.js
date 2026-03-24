@@ -26,13 +26,13 @@ async function deriveKeys(password, salt) {
     encoder.encode(password),
     "PBKDF2",
     false,
-    ["deriveBits", "deriveKey"]
+    ["deriveBits", "deriveKey"],
   );
 
   const bits = await crypto.subtle.deriveBits(
     { name: "PBKDF2", salt, iterations: 100000, hash: "SHA-256" },
     baseKey,
-    512
+    512,
   );
 
   const keyBytes = new Uint8Array(bits);
@@ -44,7 +44,7 @@ async function deriveKeys(password, salt) {
     encKeyBytes,
     { name: "AES-CBC" },
     false,
-    ["encrypt", "decrypt"]
+    ["encrypt", "decrypt"],
   );
 
   const hmacKey = await crypto.subtle.importKey(
@@ -52,7 +52,7 @@ async function deriveKeys(password, salt) {
     macKeyBytes,
     { name: "HMAC", hash: "SHA-256" },
     false,
-    ["sign", "verify"]
+    ["sign", "verify"],
   );
 
   return { encryptionKey, hmacKey };
@@ -67,7 +67,7 @@ async function encryptText(plaintext, password) {
   const ciphertext = await crypto.subtle.encrypt(
     { name: "AES-CBC", iv },
     encryptionKey,
-    encoder.encode(plaintext)
+    encoder.encode(plaintext),
   );
 
   const dataToMac = new Uint8Array([
@@ -101,18 +101,13 @@ async function decryptText(dataB64, password) {
 
     const dataToMac = new Uint8Array([...salt, ...iv, ...ciphertext]);
 
-    const valid = await crypto.subtle.verify(
-      "HMAC",
-      hmacKey,
-      mac,
-      dataToMac
-    );
+    const valid = await crypto.subtle.verify("HMAC", hmacKey, mac, dataToMac);
     if (!valid) throw new Error("HMAC verification failed");
 
     const plaintextBuf = await crypto.subtle.decrypt(
       { name: "AES-CBC", iv },
       encryptionKey,
-      ciphertext
+      ciphertext,
     );
 
     return decoder.decode(plaintextBuf);
@@ -160,25 +155,26 @@ copyBtn.addEventListener("click", () => {
   const text = outputEl.textContent.trim();
   if (!text) return;
 
-  navigator.clipboard.writeText(text)
+  navigator.clipboard
+    .writeText(text)
     .then(() => {
       copyBtn.textContent = "Copied!";
-      setTimeout(() => copyBtn.textContent = "Copy Output", 1000);
+      setTimeout(() => (copyBtn.textContent = "Copy Output"), 1000);
     })
-    .catch(err => {
+    .catch((err) => {
       console.error("Copy failed:", err);
     });
 });
 
-const inputs = document.querySelectorAll('.input, .password, .password2');
+const inputs = document.querySelectorAll(".input, .password, .password2");
 
 function adjustHeight(input) {
-  input.style.height = 'auto';
+  input.style.height = "auto";
   input.style.height = `${input.scrollHeight}px`;
 }
 
-inputs.forEach(input => {
-  input.addEventListener('input', () => adjustHeight(input));
+inputs.forEach((input) => {
+  input.addEventListener("input", () => adjustHeight(input));
 });
 
-inputs.forEach(input => adjustHeight(input));
+inputs.forEach((input) => adjustHeight(input));
