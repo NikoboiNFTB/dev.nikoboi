@@ -13,43 +13,33 @@ This repository contains my website, which contains several lightweight, open-so
 
 ## Repository Structure
 
-> Not a _full_ tree. Only relevant bits, and examples where relevant. See [tree.txt](/tree.txt) for every file.
-
 ```text
 .
-├── assets
-│   └── *
-│
 ├── docs
 │   ├── ENCRYPT.md
 │   ├── HOME.md
 │   └── LINKS.md
-│
 ├── encrypt
 │   ├── index.html
 │   ├── script.js
 │   ├── style.css
 │   └── test.js
-│
 ├── links
 │   ├── index.html
 │   ├── script.js
 │   └── style.css
-│
 ├── player
 │   ├── index.html
 │   ├── script.js
 │   └── style.css
-│
 ├── safety
 │   ├── index.html
+│   ├── script.js
 │   └── style.css
-│
 ├── CNAME
 ├── LICENSE
 ├── README.md
 ├── favicon.ico
-├── favicon.png
 ├── index.html
 ├── robots.txt
 ├── sitemap.xml
@@ -57,7 +47,7 @@ This repository contains my website, which contains several lightweight, open-so
 ├── tree
 └── tree.txt
 
-66 directories, 5724 files
+6 directories, 26 files
 ```
 
 ## Contributing
