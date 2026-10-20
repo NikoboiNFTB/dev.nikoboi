@@ -13,7 +13,7 @@ This repository contains my website, which contains several lightweight, open-so
 
 ## Repository Structure
 
-> > Not a _full_ tree. Only relevant bits, and examples where relevant. See [tree.txt](/tree.txt) for every file.
+> Not a _full_ tree. Only relevant bits, and examples where relevant. See [tree.txt](/tree.txt) for every file.
 
 ```text
 .
