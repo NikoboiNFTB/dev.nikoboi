@@ -1,182 +1,182 @@
 :root {
-  --primary-color: #002f6c;
-  --text-color: #ffffff;
-  --link-color: #8097b6;
-  --body-bg-color: #000000;
-  --container-bg-color: #111111;
-  --box-bg-color: #222222;
-  --box-bg-color2: #333333;
+	--primary-color: #002f6c;
+	--text-color: #ffffff;
+	--link-color: #8097b6;
+	--body-bg-color: #000000;
+	--container-bg-color: #111111;
+	--box-bg-color: #222222;
+	--box-bg-color2: #333333;
 
-  --font-size: 16px;
-  --padding: 32px;
-  --margin: 8px;
-  --border: 2px solid #333333;
-  --border-radius: 32px;
-  --gap: 8px;
+	--font-size: 16px;
+	--padding: 32px;
+	--margin: 8px;
+	--border: 2px solid #333333;
+	--border-radius: 32px;
+	--gap: 8px;
 }
 
 body {
-  background-color: var(--body-bg-color);
-  color: var(--text-color);
-  font-family: Arial, sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: var(--padding);
-  margin: 0;
-  text-align: center;
-  box-sizing: border-box;
-  height: 100%;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+	background-color: var(--body-bg-color);
+	color: var(--text-color);
+	font-family: Arial, sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: var(--padding);
+	margin: 0;
+	text-align: center;
+	box-sizing: border-box;
+	height: 100%;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 
 .container {
-  background: linear-gradient(135deg, #000000, #222222);
-  padding: var(--padding);
-  border-radius: var(--border-radius);
-  max-width: 500px;
-  width: 100%;
-  box-sizing: border-box;
+	background: linear-gradient(135deg, #000000, #222222);
+	padding: var(--padding);
+	border-radius: var(--border-radius);
+	max-width: 500px;
+	width: 100%;
+	box-sizing: border-box;
 }
 
 h1.header {
-  display: block;
-  font-size: calc(var(--font-size) * 2);
-  margin: var(--margin);
-  font-weight: bold;
+	display: block;
+	font-size: calc(var(--font-size) * 2);
+	margin: var(--margin);
+	font-weight: bold;
 }
 
 h2.header {
-  display: block;
-  font-size: calc(var(--font-size) * 1.5);
-  margin: var(--margin);
-  font-weight: bold;
+	display: block;
+	font-size: calc(var(--font-size) * 1.5);
+	margin: var(--margin);
+	font-weight: bold;
 }
 
 .input-row {
-  display: flex;
-  flex-direction: column;
-  gap: var(--gap);
-  margin-bottom: var(--margin);
+	display: flex;
+	flex-direction: column;
+	gap: var(--gap);
+	margin-bottom: var(--margin);
 }
 
 .input-row textarea {
-  width: 100%;
-  padding: calc(var(--padding) * 0.6);
-  background: linear-gradient(135deg, #111111, #333333);
-  border: var(--border);
-  border-radius: var(--border-radius);
-  color: var(--text-color);
-  font-size: var(--font-size);
-  box-sizing: border-box;
-  resize: none;
-  overflow: hidden;
+	width: 100%;
+	padding: calc(var(--padding) * 0.6);
+	background: linear-gradient(135deg, #111111, #333333);
+	border: var(--border);
+	border-radius: var(--border-radius);
+	color: var(--text-color);
+	font-size: var(--font-size);
+	box-sizing: border-box;
+	resize: none;
+	overflow: hidden;
 }
 
 .container output {
-  display: block;
-  width: 100%;
-  min-height: 100px;
-  background: linear-gradient(135deg, #111111, #333333);
-  border: var(--border);
-  border-radius: var(--border-radius);
-  padding: var(--padding);
-  box-sizing: border-box;
-  margin-top: var(--margin);
-  word-break: break-word;
-  white-space: pre-wrap;
-  text-align: left;
+	display: block;
+	width: 100%;
+	min-height: 100px;
+	background: linear-gradient(135deg, #111111, #333333);
+	border: var(--border);
+	border-radius: var(--border-radius);
+	padding: var(--padding);
+	box-sizing: border-box;
+	margin-top: var(--margin);
+	word-break: break-word;
+	white-space: pre-wrap;
+	text-align: left;
 }
 
 .button-row {
-  display: flex;
-  flex-direction: column;
-  gap: var(--gap);
-  margin: var(--margin) 0;
+	display: flex;
+	flex-direction: column;
+	gap: var(--gap);
+	margin: var(--margin) 0;
 }
 
 .button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: calc(var(--padding) * 0.5) var(--padding);
-  background: linear-gradient(135deg, #222222, #444444);
-  color: var(--text-color);
-  border: var(--border);
-  border-radius: var(--border-radius);
-  text-decoration: none;
-  font-size: var(--font-size);
-  transition: transform 0.2s ease;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: calc(var(--padding) * 0.5) var(--padding);
+	background: linear-gradient(135deg, #222222, #444444);
+	color: var(--text-color);
+	border: var(--border);
+	border-radius: var(--border-radius);
+	text-decoration: none;
+	font-size: var(--font-size);
+	transition: transform 0.2s ease;
 }
 
 .button:hover {
-  background: linear-gradient(135deg, #001836, #0046a2);
-  transform: scale(1.05);
-  cursor: pointer;
+	background: linear-gradient(135deg, #001836, #0046a2);
+	transform: scale(1.05);
+	cursor: pointer;
 }
 
 .footer {
-  margin: 0;
-  margin-top: var(--margin);
-  font-size: var(--font-size);
+	margin: 0;
+	margin-top: var(--margin);
+	font-size: var(--font-size);
 }
 
 #notice {
-  color: var(--link-color);
+	color: var(--link-color);
 }
 
 /* Mobile */
 
 @media screen and (max-width: 480px) {
-  body {
-    padding: calc(var(--padding) * 0.4);
-  }
+	body {
+		padding: calc(var(--padding) * 0.4);
+	}
 
-  .container {
-    padding: calc(var(--padding) * 0.4);
-    border-radius: calc(var(--border-radius) * 0.5);
-    background: linear-gradient(90deg, #000000, #222222);
-  }
+	.container {
+		padding: calc(var(--padding) * 0.4);
+		border-radius: calc(var(--border-radius) * 0.5);
+		background: linear-gradient(90deg, #000000, #222222);
+	}
 
-  .container output {
-    background: linear-gradient(90deg, #111111, #333333);
-  }
+	.container output {
+		background: linear-gradient(90deg, #111111, #333333);
+	}
 
-  h1.header {
-    font-size: calc(var(--font-size) * 1.5);
-  }
+	h1.header {
+		font-size: calc(var(--font-size) * 1.5);
+	}
 
-  .input-row textarea {
-    background: linear-gradient(90deg, #111111, #333333);
-  }
+	.input-row textarea {
+		background: linear-gradient(90deg, #111111, #333333);
+	}
 
-  .button-row {
-    width: 100%;
-  }
+	.button-row {
+		width: 100%;
+	}
 
-  .button {
-    width: 100%;
-    background: linear-gradient(90deg, #222222, #444444);
-  }
+	.button {
+		width: 100%;
+		background: linear-gradient(90deg, #222222, #444444);
+	}
 
-  .button:hover {
-    background: linear-gradient(90deg, #001836, #0046a2);
-  }
+	.button:hover {
+		background: linear-gradient(90deg, #001836, #0046a2);
+	}
 
-  textarea.input,
-  textarea.password,
-  textarea.password2,
-  .button,
-  output.output {
-    border-radius: calc(var(--border-radius) * 0.5);
-    font-size: calc(var(--font-size) * 0.75);
-    padding: calc(var(--padding) * 0.4);
-  }
+	textarea.input,
+	textarea.password,
+	textarea.password2,
+	.button,
+	output.output {
+		border-radius: calc(var(--border-radius) * 0.5);
+		font-size: calc(var(--font-size) * 0.75);
+		padding: calc(var(--padding) * 0.4);
+	}
 
-  .notice {
-    font-size: calc(var(--font-size) * 0.75);
-  }
+	.notice {
+		font-size: calc(var(--font-size) * 0.75);
+	}
 }
