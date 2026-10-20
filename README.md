@@ -1,54 +1,43 @@
 # nikoboi.dev
 
-This repository contains my website, which contains several lightweight, open-source web tools. All tools are fully client-side, easy to use, and open-source under the **GPLv3 License**.
+This repository contains my website.
 
-## Overview of Tools
+## Links
 
-| Site                                                       | Description                                                                 | README                         | Source                              |
-| ---------------------------------------------------------- | --------------------------------------------------------------------------- | ------------------------------ | ----------------------------------- |
-| [**Home**](https://nikoboi.dev/)                           | Simple link portal                                                          | [HOME.md](/docs/HOME.md)       | [home.html](/index.html)            |
-| [**Encryptor**](https://nikoboi.dev/encrypt/)              | Easily encrypt and decrypt your messages, because fuck Chat Control.        | [ENCRYPT.md](/docs/ENCRYPT.md) | [encrypt.html](/encrypt/index.html) |
-| [**Open Links**](https://nikoboi.dev/links/)               | Quickly open multiple URLs in new browser tabs.                             | [LINKS.md](/docs/LINKS.md)     | [links.html](/links/index.html)     |
-| [**Userscript Safety Guide**](https://nikoboi.dev/safety/) | A simple tutorial to guide you in safe installation and use of userscripts. | N/A                            | [safety.html](/safety/index.html)   |
+A simple, free and open-source portal where my projects and social media accounts can be found. The code is easily tweakable, so others can create their own social portals based on this project (feel free to do so :D).
 
-## Repository Structure
+### Features
 
-```text
-.
-├── docs
-│   ├── ENCRYPT.md
-│   ├── HOME.md
-│   └── LINKS.md
-├── encrypt
-│   ├── index.html
-│   ├── script.js
-│   ├── style.css
-│   └── test.js
-├── links
-│   ├── index.html
-│   ├── script.js
-│   └── style.css
-├── player
-│   ├── index.html
-│   ├── script.js
-│   └── style.css
-├── safety
-│   ├── index.html
-│   ├── script.js
-│   └── style.css
-├── CNAME
-├── LICENSE
-├── README.md
-├── favicon.ico
-├── index.html
-├── robots.txt
-├── sitemap.xml
-├── style.css
-├── tree
-└── tree.txt
+- Centralized hub for social media links.
+- Clean, minimal interface.
+- Fully open-source and easily forkable for personal use.
 
-6 directories, 26 files
+### Usage
+
+**Option 1**. Open Live Version:
+
+[https://nikoboi.dev/](https://nikoboi.dev/)
+
+**Option 2**: Download & Edit Locally:
+
+1. Clone this repository and `cd` into it:
+
+```bash
+git clone https://github.com/NikoboiNFTB/dev.nikoboi
+cd dev.nikoboi
 ```
+
+2. Open the folder in any code editor, example using VSCodium:
+
+```bash
+codium .
+```
+
+3. Edit. I recommend using [Five Server](https://marketplace.visualstudio.com/items?itemName=yandeu.five-server) to open the index.html in your browser, which automatically applies any changes made.
+
+## Screenshot
+
+![Screenshot of Home](https://assets.nikoboi.dev/screenshots/2026-01-21-home.png)
 
 ## Contributing
 
@@ -57,8 +46,6 @@ Feel free to fork this repository and submit issues or pull requests if you have
 ## Credits
 
 Created by [**Nikoboi**](https://github.com/NikoboiNFTB/)
-
-JavaScript fine-tuned with [**ChatGPT**](https://chatgpt.com/)
 
 Theme inspired by the great nation of **Finland** 🇫🇮 and the perfectly cromulent color **black**.
 
